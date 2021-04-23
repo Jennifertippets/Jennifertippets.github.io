@@ -16,6 +16,7 @@ h2{
     margin-left: 20px;
     font-size: 30px;
     }
+
 #first{
  float: right; 
  margin-right: 10px;
@@ -41,10 +42,12 @@ li {
     margin : 10px;
 }
 body{
-    display:inline-block;
+    display:block;
     width: 70%;
-    margin: 10% 30% 10% 30%;
+    margin: auto;
+    margin-top: 5%;
     background-color: rgb(179, 135, 159);
+    box-sizing: inherit;
 }
 footer{
     background-color:#e1a064;
