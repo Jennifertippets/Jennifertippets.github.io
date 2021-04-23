@@ -1,5 +1,7 @@
 var LastUpdated = document.lastModified;
 document.writeln ("Last updated: "  + LastUpdated);
 
-const date = document.getElementById('date');
-date.innerHTML = new Date().getFullYear;
+var date = new Date();
+if (document.querySelector("#year") !== null) {
+document.querySelector("#year").innerText = date.getFullYear();
+}
