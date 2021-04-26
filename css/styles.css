@@ -7,7 +7,7 @@ h1{
   text-align: left;
   font-size: 40px;
   padding: 30px 30px 30px 20px;
-  
+  font-family: 'New Tegomin', serif;
 }
 
 h2{
@@ -15,6 +15,7 @@ h2{
     margin-top: 120px;
     margin-left: 20px;
     font-size: 30px;
+    font-family: 'New Tegomin', serif;
     }
 
 #first{
@@ -48,6 +49,7 @@ body{
     margin-top: 5%;
     background-color: rgb(179, 135, 159);
     box-sizing: inherit;
+    font-family: 'Indie Flower', cursive;
 }
 footer{
     background-color:#e1a064;
