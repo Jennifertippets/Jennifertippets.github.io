@@ -1,0 +1,26 @@
+@media only screen and (min-width: 32.5em) {
+
+img {
+float: right;
+border-radius: 0 10px 0 0;
+}
+
+h1 {
+    font-size: 2.5rem; 
+    border-radius: 10px; 
+    padding: 5%; 
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+footer {
+    border-radius: 10px;
+    text-align: center;
+}
+
+#third{
+   border-radius: 10px; 
+
+}
+}
