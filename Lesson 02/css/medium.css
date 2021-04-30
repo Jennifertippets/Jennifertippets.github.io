@@ -14,9 +14,9 @@
        grid-column: span 2;
    }
 
-  main section picture{
+  main section picture img{
     display:block;
-    border: 1.5px solid rgb(179, 75, 75)
+    border: 2px solid rgb(179, 75, 75)
 }
   
    
