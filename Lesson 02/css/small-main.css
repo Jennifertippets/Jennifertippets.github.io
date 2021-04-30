@@ -5,7 +5,9 @@ header {
   max-width: 780px;
   margin: 0 auto;
 }
-
+nav{
+  margin-left:15rem;
+}
  header h1 {
     font-family: 'Hammersmith One', sans-serif;
   }
