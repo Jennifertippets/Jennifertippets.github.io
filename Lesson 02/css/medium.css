@@ -1,0 +1,25 @@
+/* tablet View*/
+@media only screen and (min-width: 37.5em){
+   
+   
+    
+    main {
+        grid-template-columns: 1fr 1fr;
+        grid-gap:10px;
+    }
+   #sec2{
+       display:block;
+   } 
+   #sec3{
+       grid-column: span 2;
+   }
+
+  main section picture{
+    display:block;
+    border: 1.5px solid rgb(179, 75, 75)
+}
+  
+   
+
+
+}

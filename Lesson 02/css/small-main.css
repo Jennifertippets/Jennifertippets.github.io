@@ -1,6 +1,62 @@
-h1 {
+header {
+  background-color: #e1a064;
+  text-align: center;
+  padding: 1rem;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+ header h1 {
     font-family: 'Hammersmith One', sans-serif;
-}
+  }
+  header h2{
+    font-family: 'Libre Baskerville', serif; 
+    
+  }
+
+  div{
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  article{
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
 main {
-  font-family: 'Libre Baskerville', serif;  
+  font-family: 'Libre Baskerville', serif;
+  max-width: 780px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap:10px;
+  font-size: 12px;
 }
+
+
+main section picture img{
+width:100%;
+}
+
+main section h2{
+  background-color: rgba(247, 41, 41, 0.63);
+  margin-top: 0rem;
+  padding: 1rem;
+
+}
+
+main section {
+margin:0.5rem;
+border: 1px solid rgb(61, 44, 38);
+padding: 0 1rem;
+background-color: #cca98c;
+border-radius: 10px;
+}
+
+
+footer{
+  background-color: #e1a064;
+  text-align: center;
+  padding: 1rem;
+} 
+
