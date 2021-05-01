@@ -42,7 +42,7 @@ ul{
     margin-bottom: 10%;
 }
 li {
-    font-size: 20px;
+    font-size: 15px;
     margin : 10px;
 }
 body{
@@ -53,6 +53,7 @@ body{
     background-color: rgb(179, 135, 159);
     box-sizing: inherit;
     font-family: 'Indie Flower', cursive;
+    font-size: 15px;
 }
 footer{
     background-color:#e1a064;
