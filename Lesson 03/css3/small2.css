@@ -1,0 +1,33 @@
+body{
+    margin: 0.5rem;
+
+}
+h1 {
+    background-color: navajowhite;
+    text-align: center;
+    padding:2rem;
+}
+footer{
+    background-color: navajowhite;
+    text-align: center;
+    padding:auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 15px; 
+    
+}
+
+header,nav ,main, footer{
+max-width: 767px;
+
+}
+nav{
+
+}
+.apple{
+    margin-top: -2rem;
+    
+}
+.grape{
+    margin-bottom: 2rem;
+}
