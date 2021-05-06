@@ -9,11 +9,18 @@
         flex: 1 1 100%;
     }
 
-    header,nav ,main, footer{
+    header, nav ,main, footer, img {
     
         margin: auto;
         }
+  
+    img {
+        max-width: 25rem;
+    }
      
-     
+    .catone {
+        float: center;
+        width: 50%;
+    } 
      
 }

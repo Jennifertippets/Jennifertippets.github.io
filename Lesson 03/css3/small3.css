@@ -14,10 +14,11 @@ footer{
     
 }
 
-header,nav ,main, footer, img {
+header, nav, main, footer {
 max-width: 767px;
 margin: 0.5rem;
 }
+
 nav {
 background-color: rgb(172, 193, 231);
 text-align: center;
@@ -38,12 +39,15 @@ padding: 0.75rem;
 text-decoration: none;
  font-size: 0.95rem;       
 }
-
+picture{
+    width:100%;
+}
 nav a:hover {
 background-color: navajowhite;
 color: rgb(218, 111, 111);
 }
 
+}
 .apple{
     margin-top: -2rem;
     
