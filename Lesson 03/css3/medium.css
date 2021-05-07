@@ -4,6 +4,7 @@
     }
     nav li {
         display:inline-block;
+        
     }
     nav ul li {
         flex: 1 1 100%;
@@ -12,11 +13,14 @@
     header, nav ,main, footer, img {
     
         margin: auto;
+        margin-bottom: 0.5rem;
         }
-
+nav{
+    margin-top: -25px;
+}
      
     .catone {
-        width: 48rem;
+        width: 100%;
     } 
      
 }
