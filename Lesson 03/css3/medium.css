@@ -9,18 +9,22 @@
     nav ul li {
         flex: 1 1 100%;
     }
-
-    header, nav ,main, footer, img {
+main picture{
+    width: 100%;
+    margin:auto;
+}
+    header, nav ,main, footer {
     
-        margin: auto;
-        margin-bottom: 0.5rem;
-        }
+        margin:auto;
+    }
+    
 nav{
     margin-top: -25px;
 }
      
     .catone {
         width: 100%;
+        margin:auto;
     } 
      
 }
