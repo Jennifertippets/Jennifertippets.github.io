@@ -15,16 +15,16 @@ main picture{
 }
     header, nav ,main, footer {
     
-        margin:auto;
+        margin: auto;
     }
     
 nav{
     margin-top: -25px;
 }
      
-    .catone {
+    .cat-one {
         width: 100%;
         margin:auto;
-    } 
-     
+ }   
+    
 }
