@@ -13,14 +13,10 @@
     
         margin: auto;
         }
-  
-    img {
-        max-width: 25rem;
-    }
+
      
     .catone {
-        float: center;
-        width: 50%;
+        width: 48rem;
     } 
      
 }
