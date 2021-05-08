@@ -9,9 +9,10 @@
     nav ul li {
         flex: 1 1 100%;
     }
-main picture{
-    width: 100%;
-    margin:auto;
+ .cat-two{
+    width: 80%;
+    margin-left: 4.5rem;
+    
 }
     header, nav ,main, footer {
     
