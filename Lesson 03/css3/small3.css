@@ -79,3 +79,7 @@ main{
 .one{
 padding: 1rem;
 }
+.two{
+    max-width: 767px;
+    margin-left: 20px;
+}
