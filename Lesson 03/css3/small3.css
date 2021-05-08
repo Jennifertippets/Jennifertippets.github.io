@@ -80,6 +80,7 @@ main{
 
 .one{
 padding: 1rem;
+padding-bottom: 2rem;
 }
 .two{
     max-width: 767px;
