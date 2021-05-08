@@ -10,9 +10,7 @@ footer{
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-size: 15px; 
-    
-    
-}
+    }
 
 
 header, nav, main, footer {
@@ -66,6 +64,8 @@ color: rgb(218, 111, 111);
 .cat-one{
     min-width: 95%;
     margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
  
 body{
