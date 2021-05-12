@@ -1,0 +1,92 @@
+
+/*----------------Header------------*/
+header {
+    background-color: #FED9B7;
+    padding:1rem 0rem;
+    
+}
+.grape {
+    float:left;
+padding-right: 1rem;
+margin-top: -1rem;
+max-width: 18%;
+   
+}
+.apple{
+margin-left:1rem;
+
+}
+.better{
+    font-size: 32px;
+    padding-bottom: 1rem;
+}
+.better.one{
+font-size: 15px;
+margin-top: -2.5rem;
+padding-right: -0.5rem;
+}
+/*-------------end header------------*/
+
+/*------------nav--------*/
+nav {
+    background-color: #f07167;
+    text-align: center;
+    margin-top: -25px;
+    }
+       
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    nav ul li a {
+    display: block;
+    color:rgb(20, 18, 16);
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+     font-size: 0.95rem;       
+    }
+
+
+/*-------------nav------*/
+
+/*-----------Main------------*/
+ main, footer{
+    max-width: 767px;
+    margin:auto;
+}
+.textholder{
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed #001;
+    padding: 15px;
+    background-color: #fdfcdc;
+    color:#0010.1;
+    font-style: italic;
+
+}
+.center{
+    text-align: center;
+}
+
+/*------------end main---------*/
+
+
+
+/*------------footer--------*/
+footer {
+    background-color: #FED9B7; 
+    text-align: center;
+    padding: 0.5rem 2rem;
+    margin: 0 auto;
+
+}
+#date{
+    padding-bottom: 2rem;
+    
+}
+
+/*----------end footer-------*/
+
