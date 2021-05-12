@@ -15,7 +15,19 @@
         margin: auto;
 
     }
+
+    header {
+        padding: 1 rem;
+    }
     .textholder {
         background-color: #8a6c92;
+    }
+    .apple{
+        
+        text-align:center;
+    }
+    .grape{
+        margin: -2rem 1rem;
+        padding: 1rem;
     }
 }
