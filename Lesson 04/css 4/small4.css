@@ -7,23 +7,28 @@ header {
 }
 .grape {
     float:left;
-padding-right: 1rem;
+padding-right: 0.5rem;
 margin-top: -1rem;
 max-width: 18%;
    
 }
 .apple{
 margin-left:1rem;
+align-content:center;
 
 }
 .better{
-    font-size: 32px;
+    font-size: 25px;
     padding-bottom: 1rem;
+
 }
 .better.one{
 font-size: 15px;
-margin-top: -2.5rem;
-padding-right: -0.5rem;
+margin-top: -2rem;
+padding-right: 1rem;
+color:#001 0.5;
+text-align: center;
+
 }
 /*-------------end header------------*/
 
