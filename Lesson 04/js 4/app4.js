@@ -29,3 +29,8 @@ const year = d.getFullYear();
 //const fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + year;
 const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 document.getElementById("date").textContent = fulldate;
+
+function toggleMenu() {
+	console.log(document.getElementById("menu").classList);
+	document.getElementById("menu").classList.toggle("hide");
+}

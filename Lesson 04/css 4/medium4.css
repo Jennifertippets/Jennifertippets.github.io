@@ -1,4 +1,7 @@
 @media only screen and (min-width: 37.5em){
+    nav button{
+        display: none;
+    }
     nav ul {
         display: flex;
     }
@@ -8,7 +11,11 @@
     }
     nav ul li {
         flex: 1 1 100%;
-    }  
+    } 
+    
+    nav ul.hide {
+        display: block;
+    }
 
     main {
         display:block;
@@ -17,7 +24,9 @@
     }
 
     header {
-        padding: 1 rem;
+        padding: 2rem;
+        align-self: center;
+    
     }
     .textholder {
         background-color: #8a6c92;
@@ -25,9 +34,18 @@
     .apple{
         
         text-align:center;
+        display: block;
     }
     .grape{
-        margin: -2rem 1rem;
-        padding: 1rem;
+        
+        float:left;
+        margin-left: 18rem;
+        margin-right:-16rem;
+        padding: 0.5rem;
+        
+    }
+    .better{
+        font-size: 45px;
+        text-align: center;
     }
 }

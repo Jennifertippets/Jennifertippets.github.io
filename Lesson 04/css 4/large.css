@@ -9,7 +9,9 @@
     nav ul li {
         flex: 1 1 1 100%;
     }
-
+nav ul li a {
+    padding: 0.6rem 1rem;
+}
 header{
 
     align-items: center;
