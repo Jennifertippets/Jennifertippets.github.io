@@ -48,14 +48,17 @@ nav {
     text-decoration: none;
      font-size: 0.95rem;       
     }
-
+nav a:hover {
+    background-color:#FED9B7;
+    color: #0010.1;
+}
 
 /*-------------nav------*/
 
 /*-----------Main------------*/
- main, footer{
+ main, footer {
     max-width: 767px;
-    margin:auto;
+    margin: 1rem 1rem;
 }
 .textholder{
     display: block;
@@ -65,8 +68,11 @@ nav {
     background-color: #fdfcdc;
     color:#0010.1;
     font-style: italic;
+    
 
 }
+
+
 .center{
     text-align: center;
 }
