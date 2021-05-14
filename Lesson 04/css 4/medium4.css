@@ -31,21 +31,22 @@
     .textholder {
         background-color: #8a6c92;
     }
-    .apple{
+    .apple {
         
         text-align:center;
         display: block;
     }
-    .grape{
+    .grape {
         
-        float:left;
-        margin-left: 18rem;
-        margin-right:-16rem;
-        padding: 0.5rem;
+        max-width: 100%;
+        margin-top: -2.7rem;
+        margin-right: 1rem;
         
     }
-    .better{
+    .better {
         font-size: 45px;
-        text-align: center;
+        
+        
+    
     }
 }

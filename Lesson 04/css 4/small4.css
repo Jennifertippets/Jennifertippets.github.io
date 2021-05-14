@@ -2,33 +2,36 @@
 /*----------------Header------------*/
 header {
     background-color: #FED9B7;
-    padding:1rem 0rem;
+    padding: 1rem 3rem;
+    
     
 }
 .grape {
-    float:left;
+float:left;
 padding-right: 0.5rem;
 margin-top: -1rem;
 max-width: 18%;
    
 }
 .apple{
-margin-left:1rem;
-align-content:center;
-display:block;
+margin-left:0.5rem;
+
 
 }
 .better{
-    font-size: 25px;
+    font-size: 20px;
     padding-bottom: 1rem;
+    
 
 }
 .better.one{
-font-size: 15px;
+font-size: 10px;
+font-weight: lighter;
 margin-top: -2rem;
-padding-right: 1rem;
-color:#001 0.5;
-text-align: center;
+
+padding-left: 6.5rem;
+color:#001 0.1;
+
 
 }
 /*-------------end header------------*/

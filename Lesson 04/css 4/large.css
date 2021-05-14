@@ -12,8 +12,19 @@
 nav ul li a {
     padding: 0.6rem 1rem;
 }
-header{
+.grape {
+    float:left;
+    min-width:15%;
+    margin-right: -10rem;
+    margin-left: 10rem;
+    margin-top: -3rem;
 
-    align-items: center;
+}
+.better{
+
+text-align: center;   
+}
+.better.one{
+    font-size: 20px;
 }
 }
