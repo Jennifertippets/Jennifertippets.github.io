@@ -22,14 +22,31 @@
         margin: auto;
 
     }
+    main, footer {
+        max-width: 767px;
+        margin: 1rem 1rem;
+    }
 
     .textholder {
         background-color: #8a6c92;
     }
     .grape {
-width: 80%;
+width: 100%;
+
     }
-    .grapeone{
-        margin-left: -37rem;
-    }
+    h1 {
+        font-size: 25px;
+        margin-left: -10rem;
+           }
+        
+        
+        .better{
+         font-size: 15px; 
+         margin-left: 6rem;
+         margin-top: -20px;
+        
+         font-style:italic; 
+        
+        }
+    
 }
