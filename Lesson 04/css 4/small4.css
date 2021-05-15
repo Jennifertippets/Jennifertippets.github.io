@@ -7,15 +7,12 @@ header {
     align-items: center;
 
     padding: 1rem;
-    
-    
-}
+    }
+
 .grape {
     max-width: 15%;
     margin-top: -1rem;
-    
-
-   }
+}
 
 
    h1 {
@@ -68,7 +65,7 @@ nav {
     }
 nav a:hover {
     background-color:#FED9B7;
-    color: #0010.1;
+    
 }
 nav ul.hide {
     display: none;
@@ -81,18 +78,15 @@ nav ul.hide {
     max-width: 767px;
     margin: 1rem 1rem;
 }
-.textholder{
+.textholder {
     display: block;
     margin: 10px auto;
     border: 1px dashed #001;
     padding: 15px;
     background-color: #fdfcdc;
-    color:#0010.1;
+    color: rgba(0, 16, 0, 0.1);
     font-style: italic;
-    
-
 }
-
 
 .center{
     text-align: center;
