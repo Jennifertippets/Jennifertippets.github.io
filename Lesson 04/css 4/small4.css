@@ -2,42 +2,40 @@
 /*----------------Header------------*/
 header {
     background-color: #FED9B7;
-    padding: 1rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
     
     
 }
 .grape {
-float:left;
-padding-right: 0.5rem;
-margin-top: -1rem;
-max-width: 18%;
-   
-}
-.apple{
-    text-align:center;
-    display: block;
-    margin-left:0.5rem;
-    max-width: 767px; 
-
-
-
-}
-.better{
-    font-size: 20px;
-    padding-bottom: 1rem;
+    max-width: 15%;
+    margin-top: -1rem;
     
 
+   }
+
+
+   h1 {
+font-size: 20px;
+margin-left: 3rem;
+   }
+
+
+.better{
+ font-size: 15px; 
+ margin-left: 5rem;
+ margin-top: -20px;
+
+ font-style:italic; 
+
 }
-.better.one{
-font-size: 10px;
-font-weight: lighter;
-margin-top: -2rem;
-
-padding-left: 6.5rem;
-color:#001 0.1;
 
 
-}
+
+
 /*-------------end header------------*/
 
 /*------------nav--------*/

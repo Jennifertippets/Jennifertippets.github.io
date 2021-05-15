@@ -23,33 +23,13 @@
 
     }
 
-    header {
-        padding: 2rem;
-        align-self: center;
-    
-    }
     .textholder {
         background-color: #8a6c92;
     }
     .grape {
-        
-        max-width: 100%;
-        padding-top: 2rem; 
-        
+width: 80%;
     }
-    .better {
-        font-size: 45px;
-        padding-left: 19rem;
+    .grapeone{
+        margin-left: -37rem;
     }
-    .better.one {
-        padding-left: 20rem;
-    }
-    
-    .apple{
-        margin-left: -1rem;
-        max-width: 767px; 
-        align-items: center; 
-    }
-    
-    
 }

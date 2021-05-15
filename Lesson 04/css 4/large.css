@@ -13,20 +13,12 @@ nav ul li a {
     padding: 0.6rem 1rem;
 }
 .grape {
-    float:left;
-    min-width:15%;
-    margin-right: -10rem;
-    margin-left: 10rem;
-    margin-top: -3rem;
+    min-width: 100%;
 
 }
-.better{
 
-text-align: center;   
-}
-.better.one{
-    font-size: 20px;
-    
+.grapeone {
+    margin-left: -51rem;
 }
 
 
