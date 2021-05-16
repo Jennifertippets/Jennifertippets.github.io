@@ -30,23 +30,23 @@
     .textholder {
         background-color: #8a6c92;
     }
-    .grape {
-width: 100%;
-
+    
+    picture img {
+        width: 100px;
+        margin: auto;
     }
     h1 {
-        font-size: 25px;
-        margin-left: -10rem;
-           }
-        
-        
-        .better{
-         font-size: 15px; 
-         margin-left: 6rem;
-         margin-top: -20px;
-        
-         font-style:italic; 
-        
-        }
-    
+        font-size: 3rem;
+        margin-right: -60rem;
+    }
+    h2 {
+        font-size: 1rem;
+        margin-left: 45rem ;
+    }
+    .center {
+        margin: auto;
+    }
+    footer{
+        text-align: center;
+    }
 }

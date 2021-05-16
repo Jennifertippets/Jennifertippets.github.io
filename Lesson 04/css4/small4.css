@@ -1,34 +1,48 @@
 
 /*----------------Header------------*/
+
+
 header {
+
     background-color: #FED9B7;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    padding: 2rem;
+
+}
+
+picture {
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    flex: 0 1 128px;
+}
+
+picture img {
+    width: 80px;
+    height:auto;
+}
+
+.grapeone {
+    flex:auto;
+    display:flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
 
-    padding: 1rem;
-    }
-
-.grape {
-    max-width: 15%;
-    margin-top: -1rem;
+}
+h1, h2 {
+    margin:0.25rem;
+}
+h1{
+    font-size: 1.2rem;
+    margin-left: -2rem;
+}
+h2{
+    font-size: 0.95rem;
+    font-style: italic;
 }
 
 
-   h1 {
-font-size: 20px;
-margin-left: 3rem;
-   }
-
-
-.better{
- font-size: 15px; 
- margin-left: 5rem;
- margin-top: -20px;
-
- font-style:italic; 
-
-}
 
 
 
@@ -100,8 +114,8 @@ nav ul.hide {
 footer {
     background-color: #FED9B7; 
     text-align: center;
-    padding: 0.5rem 2rem;
     margin: 0 auto;
+    padding: 1rem;
 
 }
 #date{
