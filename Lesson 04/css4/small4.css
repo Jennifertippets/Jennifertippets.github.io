@@ -12,7 +12,7 @@ header {
 }
 
 picture {
-    margin-left: 0.5rem;
+    margin-left: -1rem;
     padding: 0.5rem;
     flex: 0 1 128px;
 }
@@ -30,16 +30,18 @@ picture img {
     justify-content: center;
 
 }
+
 h1, h2 {
     margin:0.25rem;
 }
 h1{
-    font-size: 1.2rem;
-    margin-left: -2rem;
+    font-size: 1rem;
+    margin-left: -3rem;
 }
 h2{
-    font-size: 0.95rem;
+    font-size: 0.50rem;
     font-style: italic;
+    margin-left: -2rem;
 }
 
 
