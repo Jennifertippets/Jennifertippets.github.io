@@ -33,6 +33,7 @@ picture img {
 
 h1, h2 {
     margin:0.25rem;
+    font-family: 'Fira Sans', sans-serif;
 }
 h1{
     font-size: 1rem;
