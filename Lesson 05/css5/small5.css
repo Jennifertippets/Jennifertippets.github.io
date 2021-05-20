@@ -105,6 +105,7 @@ nav ul.hide {
     background: radial-gradient(#eee, #8a6c92);
     border: 1px solid;
     padding: 0.4rem;
+    opacity: 0.8;
 
 }
 
