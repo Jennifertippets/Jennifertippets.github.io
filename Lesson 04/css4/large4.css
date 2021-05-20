@@ -12,20 +12,5 @@
 nav ul li a {
     padding: 0.6rem 1rem;
 }
- /********header*********/
 
-.grapeone {
-    margin-left: -60%;
-}
-main, footer {
-    margin: auto;
-}
-h1 {
-    font-size: 40px;
-    margin-left: 45rem;
-       }
- h2 {
-    margin-right: -55rem;
-       }
-    
 }    
