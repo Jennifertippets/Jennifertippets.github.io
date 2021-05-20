@@ -78,9 +78,12 @@ nav ul.hide {
     max-width: 767px;
     margin: 1rem 1rem;
 }
+
+/********text holders*******/
+
 .textholder {
     display: block;
-    margin: 10px auto;
+    margin: 5px auto;
     border: 1px dashed #001;
     padding: 15px;
     background-color: #fdfcdc;
@@ -88,6 +91,24 @@ nav ul.hide {
     font-style: italic;
 }
 
+.hero {
+  position: relative;
+  margin: 10px auto;
+}
+
+
+
+.weatherbox {
+    position:absolute;
+    top: 7rem;
+    left: 10px;
+    background: radial-gradient(#eee, #8a6c92);
+    border: 1px solid;
+    padding: 0.4rem;
+
+}
+
+/*******end text holders*******/
 .center{
     text-align: center;
 }
