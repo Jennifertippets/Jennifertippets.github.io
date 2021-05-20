@@ -76,7 +76,7 @@ nav ul.hide {
 /*-----------Main------------*/
  main, footer {
     max-width: 767px;
-
+    margin: 1rem 1rem;
 }
 .textholder {
     display: block;
