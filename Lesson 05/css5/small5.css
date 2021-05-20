@@ -20,15 +20,15 @@ header img {
     flex-direction: column;
   }
   .grapeone h1 {
-    font-size: 1.6rem;
-    margin: 0 0 0 20px;
+    font-size: 1.1rem;
+    margin: 0 0 0 15px;
   }
   .grapetwo {
     font-style: italic;
     letter-spacing: 1pt;
       color: black;
-      margin-left: 45px;
-      font-size: .9rem;
+      margin-left: 30px;
+      font-size: .6rem;
   }
   
 
