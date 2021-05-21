@@ -54,8 +54,13 @@
     .Article img {
         float: right;
         width: 50%;
-        margin:auto;
+        margin:15px;
         }
+    .Article p {
+            text-align:justify;
+            text-indent: 5rem;
+        }
+
     .contact img {
         display:block;
         float:left;
