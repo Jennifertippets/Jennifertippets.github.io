@@ -100,7 +100,7 @@ nav ul.hide {
 
 .weatherbox {
     position:absolute;
-    top: 7rem;
+    top: 9rem;
     left: 10px;
     background: radial-gradient(#eee, #8a6c92);
     border: 1px solid;
@@ -108,6 +108,23 @@ nav ul.hide {
     opacity: 0.8;
 
 }
+.hero p, h3 {
+margin: 0;
+font-weight: bolder;
+}
+
+.Article {
+    position:relative;
+    margin: 10px auto;
+    background-color:#FED9B7;
+    padding: 1rem;
+}
+.Article img {
+    
+}
+
+
+
 
 /*******end text holders*******/
 .center{
