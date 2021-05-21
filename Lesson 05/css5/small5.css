@@ -120,16 +120,35 @@ font-weight: bolder;
     padding: 1rem;
 }
 .Article img {
-    
-}
 
+        min-width:30%; 
+        height:auto;
+        display:block;
+        margin:auto;
+        box-shadow: 0 0 30px #8a6c92;
+}
+.contact {
+    position:relative;
+    margin: 10px auto;
+    background-color:#f07167;
+   
+    padding: 2rem;  
+}
+.contact img {
+   overflow: hidden; 
+   display: none;
+}
+.cat  {
+text-align: left;
+margin-left: 8rem ;
+}
+    
 
 
 
 /*******end text holders*******/
-.center{
-    text-align: center;
-}
+
+
 
 /*------------end main---------*/
 

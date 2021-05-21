@@ -50,7 +50,24 @@
         background-color: #8a6c92;
     }
     
-
+/********main********/
+    .Article img {
+        float: right;
+        width: 50%;
+        margin:auto;
+        }
+    .contact img {
+        display:block;
+        float:left;
+        width: 41%;
+        margin:-1rem 5rem -1rem -1rem;
+    } 
+    
+    
+    
+    .contact {
+        height: 300px;
+    }
 
 
 }
