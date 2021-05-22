@@ -60,6 +60,13 @@
             text-align:justify;
             text-indent: 5rem;
         }
+
+    .forcast{
+        display: flex;
+    }    
+    .day{
+        display:block;
+    }
 /*********contact******/
 .contact{
     display:grid;

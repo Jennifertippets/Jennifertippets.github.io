@@ -119,25 +119,26 @@ font-weight: bolder;
 .forcast {
     display:flex;
     flex-flow: row wrap;
-    border-right: 1px solid #8a6c92;
-
+    position: relative;
+    margin: 10px auto;
+    display:none;
 }
 .forcast1 {
     flex:1 1 auto;
     background-color:#f07167;
-    border-bottom: 1px solid rgb(36, 33, 33);
-	border-left: 1px solid rgb(36, 33, 33);
+    border-bottom: transparent;
+	border-left: transparent;
 	text-align: center;
-
+    
 }
 .subforcast1 {
     display: block;
 	padding: 5px;
-	border-bottom: 1px solid #333;
+	border-bottom: 1px solid rgb(54, 45, 45);
 	text-align: center;
     font-weight: 700;
 	font-size: 1rem;
-	background-color: black;
+	background-color:#8a6c92;
 	color: white;
 }
 .subforcast2 {
@@ -150,7 +151,13 @@ font-weight: bolder;
     padding: 0.25rem;
 }
 
+.day {
+    text-align: center;
+    font-size: 30px;
+    display:none;
+}
 
+/*********Article******/
 .Article {
     position:relative;
     margin: 10px auto;
@@ -168,15 +175,8 @@ font-weight: bolder;
 .continue {
     color:blue;
 }
+/**********end Article********/
 
-.day {
-    text-align: center;
-    font-size: 30px;
-}
-.forcast {
-    position: relative;
-    margin: 10px auto;  
-}
 /**********contact*********/
 
 .contact {
@@ -203,11 +203,11 @@ font-weight: bolder;
 }
 
 .map {
-   overflow: hidden; 
+ 
    display: none;
 }
 
-    
+/**********end contact*******/    
 
 
 
