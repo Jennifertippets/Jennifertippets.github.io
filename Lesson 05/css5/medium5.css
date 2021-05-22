@@ -60,19 +60,27 @@
             text-align:justify;
             text-indent: 5rem;
         }
-
-    .contact img {
+/*********contact******/
+.contact{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin:auto;
+}
+.contact-info{
+    margin-left: -3rem;
+}
+    .map {
+        
         display:block;
-        float:left;
-        width: 41%;
-        margin:-1rem 5rem -1rem -1rem;
+        width: 70%;
+        margin:auto;
+        
     } 
     
     
     
-    .contact {
-        height: 300px;
-    }
+   
+    
 
 
 }

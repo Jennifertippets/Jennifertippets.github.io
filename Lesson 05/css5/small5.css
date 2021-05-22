@@ -177,22 +177,36 @@ font-weight: bolder;
     position: relative;
     margin: 10px auto;  
 }
+/**********contact*********/
 
 .contact {
-    position:relative;
-    margin: 10px auto;
+    position: relative;
+    margin: auto;
     background-color:#f07167;
-   
-    padding: 2rem;  
+   text-align: center;
+   max-width: 100%;
+    padding: 1rem;  
 }
-.contact img {
+.contact-info {
+    margin-top: auto;
+    display:block;
+    text-align:center;
+    margin-bottom: 6px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+    margin-bottom: -5px;
+
+}
+
+.map {
    overflow: hidden; 
    display: none;
 }
-.cat  {
-text-align: left;
-margin-left: 8rem ;
-}
+
     
 
 
