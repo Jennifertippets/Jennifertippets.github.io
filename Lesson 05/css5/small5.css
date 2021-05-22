@@ -80,6 +80,7 @@ nav ul.hide {
 }
 .center{
     text-align: center;
+    font-size: 30px;
 }
 /********text holders*******/
 
@@ -115,6 +116,41 @@ margin: 0;
 font-weight: bolder;
 }
 
+.forcast {
+    display:flex;
+    flex-flow: row wrap;
+    border-right: 1px solid #8a6c92;
+
+}
+.forcast1 {
+    flex:1 1 auto;
+    background-color:#f07167;
+    border-bottom: 1px solid rgb(36, 33, 33);
+	border-left: 1px solid rgb(36, 33, 33);
+	text-align: center;
+
+}
+.subforcast1 {
+    display: block;
+	padding: 5px;
+	border-bottom: 1px solid #333;
+	text-align: center;
+    font-weight: 700;
+	font-size: 1rem;
+	background-color: black;
+	color: white;
+}
+.subforcast2 {
+    display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+.forcast img {
+    padding: 0.25rem;
+}
+
+
 .Article {
     position:relative;
     margin: 10px auto;
@@ -128,6 +164,18 @@ font-weight: bolder;
         display:block;
         margin:auto;
         box-shadow: 0 0 30px #8a6c92;
+}
+.continue {
+    color:blue;
+}
+
+.day {
+    text-align: center;
+    font-size: 30px;
+}
+.forcast {
+    position: relative;
+    margin: 10px auto;  
 }
 
 .contact {
