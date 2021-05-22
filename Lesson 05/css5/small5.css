@@ -82,10 +82,13 @@ nav ul.hide {
     max-width: 767px;
     margin: 1rem 1rem;
 }
-aside {
+#friday {
     background-color:yellow;
     text-align: center;
-    display:none;
+    font-size: 24px;
+    padding: 1rem;
+    
+    
 }
 .center{
     text-align: center;
