@@ -78,28 +78,27 @@ nav ul.hide {
     max-width: 767px;
     margin: 1rem 1rem;
 }
+aside {
+    background-color:yellow;
+    text-align: center;
+    display:none;
+}
 .center{
     text-align: center;
     font-size: 30px;
 }
 /********text holders*******/
 
-.textholder {
-    display: block;
-    margin: 5px auto;
-    border: 1px dashed #001;
-    padding: 15px;
-    background-color: #fdfcdc;
-    color: rgba(0, 16, 0);
-    font-style: italic;
-}
+
 
 .hero {
   position: relative;
   margin: 10px auto;
 }
 
-
+.pink{
+   max-width: 100%; 
+}
 
 .weatherbox {
     position:absolute;
@@ -109,6 +108,7 @@ nav ul.hide {
     border: 1px solid;
     padding: 0.4rem;
     opacity: 0.8;
+    
 
 }
 .hero p, h3 {

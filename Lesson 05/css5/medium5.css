@@ -63,6 +63,7 @@
 
     .forcast{
         display: flex;
+        width: 80%;
     }    
     .day{
         display:block;
