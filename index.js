@@ -1,5 +1,4 @@
-var LastUpdated = document.lastModified;
-document.writeln ("Last updated: "  + LastUpdated);
+document.querySelector('#lastmod').textContent = document.lastModified;
 
 var date = new Date();
 if (document.querySelector("#year") !== null) {

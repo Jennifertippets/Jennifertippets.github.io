@@ -1,3 +1,5 @@
-const daynames = new Date();
-if(daynames.getDay() == 5){
+
+    /*****banner***** */
+    const daynames = new Date();
+if(daynames.getDay() == 6){
     document.querySelector('#friday').style.display = 'block'; } 
