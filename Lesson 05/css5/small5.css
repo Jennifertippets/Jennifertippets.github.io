@@ -97,7 +97,7 @@ nav ul.hide {
 /********text holders*******/
 
 
-
+/********hero*******/
 .hero {
   position: relative;
   margin: 10px auto;
@@ -123,6 +123,9 @@ margin: 0;
 font-weight: bolder;
 }
 
+/**********end hero*******/
+
+/********forecast******/
 .forcast {
     display:flex;
     flex-flow: row wrap;
@@ -163,6 +166,7 @@ font-weight: bolder;
     font-size: 30px;
     display:none;
 }
+/********end forecast*****/
 
 /*********Article******/
 .Article {
@@ -173,11 +177,11 @@ font-weight: bolder;
 }
 .Article img {
 
-        min-width:30%; 
+        max-width:100%; 
         height:auto;
         display:block;
         margin:auto;
-        box-shadow: 0 0 30px #8a6c92;
+        box-shadow: 0 0 20px #8a6c92;
 }
 .continue {
     color:blue;
