@@ -1,0 +1,16 @@
+@media only screen and (min-width: 60em){
+    nav ul {
+        display: flex;
+    }
+    nav li {
+        display:inline-block;
+        
+    }
+    nav ul li {
+        flex: 1 1 1 100%;
+    }
+nav ul li a {
+    padding: 0.6rem 1rem;
+}
+   
+}    
