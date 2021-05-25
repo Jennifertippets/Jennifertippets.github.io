@@ -7,7 +7,7 @@
 h1{
   font-size: 1.5rem;
   padding: 10px 20px 10px 20px;
-  font-family: 'New Tegomin', serif;
+  font-family: 'Padauk', serif;
   text-align: center;
 }
 
@@ -16,7 +16,7 @@ h2{
     margin-top: 5rem;
     margin-left: 20px;
     font-size: 1rem;
-    font-family: 'New Tegomin', serif;
+    font-family: 'Padauk', serif;
     }
 
  img{
@@ -52,7 +52,7 @@ body{
     margin-top: 5%;
     background-color: rgb(179, 135, 159);
     box-sizing: inherit;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', sans-serif;
     font-size: 15px;
 }
 footer{
@@ -60,7 +60,7 @@ footer{
     padding: 10px 20px 10px 20px;
     text-align: center;
     padding: 1rem 0.8rem; 
-    font-family: 'New Tegomin', serif; 
+    font-family: 'Padauk', serif; 
 }
 
 .sun {
