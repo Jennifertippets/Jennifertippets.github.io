@@ -106,21 +106,22 @@ nav ul.hide {
   margin: 10px auto;
 }
 
-.pink{
+.pink {
    max-width: 100%; 
 }
 
+
 .weatherbox {
     position:absolute;
-    top: 9rem;
+    top: 3rem;
     left: 10px;
     background: radial-gradient(#eee, #8a6c92);
     border: 1px solid;
     padding: 0.4rem;
     opacity: 0.8;
-    
+} 
 
-}
+
 .hero p, h3 {
 margin: 0;
 font-weight: bolder;
