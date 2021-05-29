@@ -47,6 +47,9 @@
         margin: auto;
 
     }
+    .pink {
+      max-width: 100%;  
+    }
     main, footer {
         max-width: 767px;
         
