@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+}
+
+
+.pictures {
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+
