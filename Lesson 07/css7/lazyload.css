@@ -9,4 +9,9 @@ h1 {
     justify-items: center;
 }
 
+img {
+    filter: blur(0em);
+    transition: filter 2s;
+    border: 2px solid rgb(34, 34, 34);
+}
 
