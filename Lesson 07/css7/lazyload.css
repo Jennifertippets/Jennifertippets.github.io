@@ -10,7 +10,7 @@ h1 {
 }
 
 img[data-src] {
-filter: blur(0em);
+filter: blur(0.2em);
 }
 
 img {
