@@ -97,13 +97,9 @@
     } 
 
  /********************gallery page**********************/ 
- .gallery-title {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: left; 
-    font-size: 3rem;
+ 
     
-}
+
 
    .gallery-pictures {
        display: grid;

@@ -263,15 +263,7 @@ footer {
 /*****************gallery page***********/
 
 /**********gallery main**********/
-.gallery-title {
-    display:grid;
-    grid-template-columns: 1fr;
-    justify-content: left;
-    text-align: left;
-    margin: 0 3rem;
-    font-size: 2rem;
-    
-}
+
 
 .gallery-pictures {
     display: grid;

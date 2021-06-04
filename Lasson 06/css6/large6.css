@@ -20,14 +20,7 @@ nav ul li a {
      max-width: 100%;
  }  
 /********************gallery page**********************/  
-.gallery-title {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: left; 
-    margin: 1rem -13rem;
-    font-size: 3rem;
-    
-}
+
 
 .gallery-pictures {
     display: grid;
