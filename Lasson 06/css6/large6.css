@@ -19,4 +19,18 @@ nav ul li a {
  .map {
      max-width: 100%;
  }  
+/********************gallery page**********************/   
+.gallery-pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 18px;
+    grid-row-gap: 18px;
+   
+} 
+ 
+/********************end gallery page*******************************/ 
+ 
+
+
+
 }    

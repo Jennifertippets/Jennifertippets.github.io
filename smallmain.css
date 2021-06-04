@@ -249,6 +249,26 @@ font-weight: bolder;
 
 /*****************************end of preston page****************************/
 
+/*****************gallery page***********/
+
+/**********gallery main**********/
+.gallery-title {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.gallery-pictures {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: auto;
+    grid-row-gap: 50px;
+    
+}
+
+main .gallery-main {
+    margin-bottom: 5rem;
+}
 /***********************************************main footer that goes in each page********************************************************/
 
 /*------------footer--------*/

@@ -95,10 +95,22 @@
         margin:auto;
         
     } 
+
+ /********************gallery page**********************/   
+   .gallery-pictures {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-column-gap: 18px;
+       grid-row-gap: 18px;
+       margin: -25px;
+
+       
+   } 
+   .images {
+       max-width: 100%;
+   }
     
-    
-    
-   
+  /********************end gallery page*******************************/ 
     
 
 
