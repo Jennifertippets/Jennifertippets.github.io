@@ -1,0 +1,269 @@
+
+/****************web title and nav bar that goes on each page*************************/
+
+/*----------------Header------------*/
+
+
+header {
+
+    background-color: #FED9B7;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+header img {
+    width: 80px;
+    height: auto;
+  }
+  .grapeone {
+    display: flex;
+    flex-direction: column;
+  }
+  .grapeone h1 {
+    font-size: 1.5rem;
+    margin: 0 0 0 15px;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  .grapetwo {
+    font-style: italic;
+    letter-spacing: 1pt;
+      color: black;
+      margin-left: 30px;
+      font-size: .6rem;
+  }
+  
+
+
+/*-------------end header------------*/
+
+/*------------nav--------*/
+nav button {
+   margin: 0.2rem 45%;
+   background-color: transparent;
+   border:none; 
+   font-size: 1.6rem;
+   
+}
+nav {
+    background-color: #f07167;
+    text-align: center;
+    margin-top: -1px;
+    }
+       
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    nav ul li a {
+    display: block;
+    color:rgb(20, 18, 16);
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+     font-size: 0.95rem;  
+     font-family: 'Fira Sans', sans-serif;     
+    }
+    nav ul li.active a {
+     background-color:#8a6c92;
+     color:white;   
+    }
+nav a:hover {
+    background-color:#FED9B7;
+    
+}
+nav ul.hide {
+    display: none;
+}
+
+/**********end of nav bar------*/
+
+/******************************End of title and nav bar ************************************/
+
+/*********************************preston page***********************************/
+/*-----------Main------------*/
+ main, footer {
+    max-width: 767px;
+    margin: 1rem 1rem;
+}
+#friday {
+    background-color:yellow;
+    text-align: center;
+    font-size: 24px;
+    padding: 1rem;
+    display:none;
+    
+}
+.center{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Fira Sans', sans-serif;
+}
+/********text holders**********/
+
+
+/********hero*******/
+.hero {
+  position: relative;
+  margin: 10px auto;
+}
+
+.pink {
+    max-width: 100%;
+}
+
+
+.weatherbox {
+    position:absolute;
+    top: 3rem;
+    left: 10px;
+    background: radial-gradient(#eee, #8a6c92);
+    border: 1px solid;
+    padding: 0.4rem;
+    opacity: 0.8;
+} 
+
+
+.hero p, h3 {
+margin: 0;
+font-weight: bolder;
+}
+
+/**********end hero*******/
+
+/********forecast******/
+.forcast {
+    display:flex;
+    flex-flow: row wrap;
+    position: relative;
+    margin: 10px auto;
+    display:none;
+}
+.forcast1 {
+    flex:1 1 auto;
+    background-color:#f07167;
+    border-bottom: transparent;
+	border-left: transparent;
+	text-align: center;
+    
+}
+.subforcast1 {
+    display: block;
+	padding: 5px;
+	border-bottom: 1px solid rgb(54, 45, 45);
+	text-align: center;
+    font-weight: 700;
+	font-size: 1rem;
+	background-color:#8a6c92;
+	color: white;
+}
+.subforcast2 {
+    display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+.forcast img {
+    padding: 0.25rem;
+}
+
+.day {
+    text-align: center;
+    font-size: 30px;
+    display:none;
+    font-family: 'Fira Sans', sans-serif;
+}
+/********end forecast*****/
+
+/*********Article******/
+.Article {
+    position:relative;
+    margin: 10px auto;
+    background-color:#FED9B7;
+    padding: 1rem;
+}
+.Article img {
+
+        max-width:100%; 
+        height:auto;
+        display:block;
+        margin:auto;
+        box-shadow: 0 0 20px #8a6c92;
+}
+.Article h2, h3 {
+    font-family: 'Fira Sans', sans-serif;
+}
+.Article p {
+    font-family: 'Padauk', sans-serif;   
+}
+
+.continue {
+    color:blue;
+}
+/**********end Article********/
+
+/**********contact*********/
+
+.contact {
+    position: relative;
+    margin: auto;
+    background-color:#f07167;
+   text-align: center;
+   max-width: 100%;
+    padding: 1rem;  
+}
+.contact-info {
+    margin-top: auto;
+    display:block;
+    text-align:center;
+    margin-bottom: 6px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+    margin-bottom: -5px;
+
+}
+.contact-info h3 {
+    font-size: 24px;
+}
+.map {
+ 
+   display: none;
+}
+
+/**********end contact*******/    
+
+
+
+/*******end text holders*******/
+
+
+
+/*------------end main---------*/
+
+/*****************************end of preston page****************************/
+
+/***********************************************main footer that goes in each page********************************************************/
+
+/*------------footer--------*/
+footer {
+    background-color: #FED9B7; 
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+
+}
+#date{
+    padding-bottom: 2rem;
+    
+}
+
+/*----------end footer-------*/
+/******************************************************end of main footer******************************************************/
+
