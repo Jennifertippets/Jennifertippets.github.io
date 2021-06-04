@@ -19,11 +19,20 @@ nav ul li a {
  .map {
      max-width: 100%;
  }  
-/********************gallery page**********************/   
+/********************gallery page**********************/  
+.gallery-title {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: left; 
+    margin: 1rem -13rem;
+    font-size: 3rem;
+    
+}
+
 .gallery-pictures {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 18px;
+    grid-column-gap: 10px;
     grid-row-gap: 18px;
    
 } 

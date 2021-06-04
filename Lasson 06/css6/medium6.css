@@ -50,8 +50,8 @@
     .pink {
       max-width: 100%;  
     }
-    main, footer {
-        max-width: 767px;
+    main {
+        max-width: 800px;
         
     }
 
@@ -96,13 +96,23 @@
         
     } 
 
- /********************gallery page**********************/   
+ /********************gallery page**********************/ 
+ .gallery-title {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: left; 
+    font-size: 3rem;
+    
+}
+
    .gallery-pictures {
        display: grid;
        grid-template-columns: 1fr 1fr;
-       grid-column-gap: 18px;
-       grid-row-gap: 18px;
-       margin: -25px;
+       justify-content: center;
+       margin: auto;
+       grid-column-gap: 15px;
+       grid-row-gap: 50px;
+       
 
        
    } 
