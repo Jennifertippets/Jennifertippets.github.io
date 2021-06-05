@@ -51,7 +51,8 @@
       max-width: 100%;  
     }
     main {
-        max-width: 767px;
+        max-width: 950px;
+        
         
     }
 
@@ -104,8 +105,7 @@
    .gallery-pictures {
        display: grid;
        grid-template-columns: 1fr 1fr;
-       justify-content: center;
-       align-items: center;
+       justify-items: center;
        grid-column-gap: 50px;
        grid-row-gap: 50px;
     

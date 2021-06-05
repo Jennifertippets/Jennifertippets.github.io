@@ -18,7 +18,12 @@ nav ul li a {
  } 
  .map {
      max-width: 100%;
- }  
+ } 
+ 
+ main {
+     margin: 0 auto;
+     padding-right: 20%;
+ }
 /********************gallery page**********************/  
 
 
