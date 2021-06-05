@@ -51,7 +51,7 @@
       max-width: 100%;  
     }
     main {
-        max-width: 800px;
+        max-width: 767px;
         
     }
 
@@ -105,16 +105,11 @@
        display: grid;
        grid-template-columns: 1fr 1fr;
        justify-content: center;
-       margin: auto;
-       grid-column-gap: 15px;
+       align-items: center;
+       grid-column-gap: 50px;
        grid-row-gap: 50px;
-       
-
-       
-   } 
-   .images {
-       max-width: 100%;
-   }
+    
+       }
     
   /********************end gallery page*******************************/ 
     

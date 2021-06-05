@@ -81,7 +81,7 @@ nav ul.hide {
 
 /*-----------Main------------*/
  main {
-    /**max-width: 767px;**/
+    max-width: 767px;
     margin: 1rem 1rem;
 }
 #friday {
@@ -269,13 +269,14 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
+    align-items: center;
     margin: 1rem 1rem;
     grid-row-gap: 40px;
     padding-top: 2rem;
 }
 
 .gallery-main {
-    margin: 0 auto;
+   
     padding-bottom: 4rem;
 
     
