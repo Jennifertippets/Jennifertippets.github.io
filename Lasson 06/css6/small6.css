@@ -81,9 +81,9 @@ nav ul.hide {
 
 /*-----------Main------------*/
  main {
-    max-width: 767px;
+    max-width: 950px;
     margin: 1rem 1rem;
-    background-color: aqua;
+    
 }
 #friday {
     background-color:yellow;
