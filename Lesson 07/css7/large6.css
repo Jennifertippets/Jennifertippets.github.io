@@ -1,0 +1,42 @@
+@media only screen and (min-width: 60em){
+    nav ul {
+        display: flex;
+    }
+    nav li {
+        display:inline-block;
+        
+    }
+    nav ul li {
+        flex: 1 1 1 100%;
+    }
+nav ul li a {
+    padding: 0.6rem 1rem;
+}
+
+ .pink {
+     max-width: 100%;
+ } 
+ .map {
+     max-width: 100%;
+ }  
+/********************gallery page**********************/  
+
+
+.gallery-pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content:center ;
+    grid-column-gap: 10px;
+    grid-row-gap: 18px;
+   
+} 
+.gallery-main {
+    max-width: 100%;
+}
+ 
+/********************end gallery page*******************************/ 
+ 
+
+
+
+}    
