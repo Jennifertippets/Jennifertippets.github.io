@@ -83,6 +83,7 @@ nav ul.hide {
  main {
     max-width: 767px;
     margin: 1rem 1rem;
+    background-color: aqua;
 }
 #friday {
     background-color:yellow;
@@ -268,18 +269,14 @@ footer {
 .gallery-pictures {
     display: grid;
     grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem 1rem;
+    justify-items: center;
     grid-row-gap: 40px;
     padding-top: 2rem;
 }
 
 .gallery-main {
    
-    padding-bottom: 4rem;
-
-    
+    padding-bottom: 4rem;    
 }
 
 .images:hover {box-shadow: 0 0 40px #8a6c92;
