@@ -285,11 +285,9 @@ footer {
 .images {
     border: solid 1px #8a6c92;
     padding: 0 0 20px;
-    margin: 0 auto;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    
+    margin: auto;
+    max-width: 90%;
+   
     
 }
 img[data-src] {
@@ -299,4 +297,5 @@ img[data-src] {
 img {
     filter: blur(0em);
     transition: filter 1.5s;
+    max-width: 100%;
     }

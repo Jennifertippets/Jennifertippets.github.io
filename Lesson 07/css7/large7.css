@@ -22,7 +22,6 @@ nav ul li a {
  
  main {
      margin: 0 auto;
-     padding-right: 20%;
  }
 /********************gallery page**********************/  
 
@@ -32,9 +31,14 @@ nav ul li a {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 18px;
+    justify-self: center;
    
 } 
-.gallery-main {
+.images {
+    padding: auto;
+    max-width: 100%;
+}
+img{
     max-width: 100%;
 }
  
