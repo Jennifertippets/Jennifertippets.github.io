@@ -265,7 +265,10 @@ footer {
 /*****************gallery page***********/
 
 /**********gallery main**********/
-
+.gallery-title {
+    font-size: 40px;
+    font-family: 'Padauk', sans-serif;
+}
 
 .gallery-pictures {
     display: grid;
@@ -273,6 +276,7 @@ footer {
     justify-items: center;
     grid-row-gap: 40px;
     padding-top: 2rem;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .gallery-main {
