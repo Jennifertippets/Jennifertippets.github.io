@@ -7,9 +7,10 @@ table, th,td {
 }
 table {
     table-layout: fixed;
-    width:330px;
+    min-width:80%;
+    height: auto;
     border-collapse: collapse;
-    margin: 0 auto;
+    margin:auto;
     box-shadow: 10px 10px 10px #628ca6;
 }
  td {
