@@ -47,21 +47,28 @@ h1 {
     text-align: center;
     font-size: 24px;
 }
-table, th,td {
+table, td {
     border:1px solid rgb(201, 194, 194);
+    padding: .625em;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
+
 .title {
-    font-size: 30px;
-}
-.title {
+
     background-color:#7fb9c2; 
     color:black;
-    font-family: 'Ubuntu', sans-serif;   
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 30px;
+    padding: 1rem; 
+    margin-bottom: -20px;
 }
 .foo {
     background-color:#7fb9c2; 
     color:black;
-    font-family: 'Ubuntu', sans-serif;    
+    font-family: 'Ubuntu', sans-serif; 
+    padding: 1rem; 
+    margin-top: -20px;   
 }
 .subheader {
     background-color: #628ca6;
@@ -73,61 +80,23 @@ tr:nth-child(even) {background-color:#e7f0ed;}
 tr:nth-child(odd) {background-color: #e7ffed;}
 
 table {
-    border: 1px solid #ccc;
     border-collapse: collapse;
     margin: 0 auto;
     padding: 0;
     width: 350px;
     table-layout: fixed;
+    box-shadow: 10px 10px 10px #628ca6;
   }
-  .title {
-      font-size: 20px;
-      
-  }
-
-  
-  
- 
-  
-  table tr {
-    background-color: #f8f8f8;
-    border: 1px solid #ddd;
-    padding: .35em;
-  }
-  
-  table th,
-  table td {
-    padding: .625em;
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-  }
-  
-  table th {
-    font-size: .85em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-  }
-  
+   
   @media screen and (max-width: 600px) {
 h1 {
     align-self: center;
 }
     .sub {
-        display:none;
-       
+        display:none;   
     }
-    table {
-      border: 0.5rem;
-      max-width: 90%;
-    }
-    h1 {
-        align-items: center;
-    }
-    
    
-    
-    table tr {
-    
+     table tr {
       display: block;
       margin-bottom: 1em;
     }
@@ -149,7 +118,13 @@ h1 {
     }
     
     table td:last-child {
-      border-bottom: 0;
+      border-bottom: 1px solid #ddd;
     }
   
-
+.title {
+    display:block;
+}
+.foo {
+    display: block;
+}
+  }
