@@ -1,4 +1,4 @@
-h1 {
+/*h1 {
     text-align: center;
 }
 
@@ -9,8 +9,6 @@ table {
     table-layout:fixed;
     width:350px;
     max-width: 90%;
-
-
     border-collapse: collapse;
     margin:auto;
     box-shadow: 10px 10px 10px #628ca6;
@@ -20,19 +18,21 @@ table {
     text-align: center;
     vertical-align: center;
     font-size: 18px;
-    white-space: nowrap ;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 tr:nth-child(even) {background-color:#e7f0ed;}
 tr:nth-child(odd) {background-color: #e7ffed;}
 
-td:hover {background-color: #628ca6; color: white;}
+.cell {
+    background-color: #628ca6; color: white;
+}
 
 th {
     height: 35px;
    background-color:#7fb9c2; 
    color:black;
-    
+   font-family: 'Ubuntu', sans-serif; 
 }
 .subheader {
     background-color: #628ca6;
@@ -42,4 +42,115 @@ th {
 .title {
   font-size: 30px; 
   padding: 0.5rem; 
+}*/
+h1 {
+    text-align: center;
+    font-size: 24px;
 }
+table, th,td {
+    border:1px solid rgb(201, 194, 194);
+}
+.title {
+    font-size: 30px;
+}
+.title {
+    background-color:#7fb9c2; 
+    color:black;
+    font-family: 'Ubuntu', sans-serif;   
+}
+.foo {
+    background-color:#7fb9c2; 
+    color:black;
+    font-family: 'Ubuntu', sans-serif;    
+}
+.subheader {
+    background-color: #628ca6;
+    color: white;
+    font-size: 15px;
+}
+
+tr:nth-child(even) {background-color:#e7f0ed;}
+tr:nth-child(odd) {background-color: #e7ffed;}
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 0;
+    width: 350px;
+    table-layout: fixed;
+  }
+  .title {
+      font-size: 20px;
+      
+  }
+
+  
+  
+ 
+  
+  table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  
+  @media screen and (max-width: 600px) {
+h1 {
+    align-self: center;
+}
+    .sub {
+        display:none;
+       
+    }
+    table {
+      border: 0.5rem;
+    }
+    h1 {
+        align-items: center;
+    }
+    
+    th {
+    background-color:
+    padding: 0 auto;
+    }
+    
+    table tr {
+    
+      display: block;
+      margin-bottom: 1em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+      padding-right: 2rem;
+    }
+    
+    table td::before {
+      
+      content: attr(data-th);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
