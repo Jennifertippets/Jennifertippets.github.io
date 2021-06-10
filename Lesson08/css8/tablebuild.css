@@ -6,7 +6,7 @@ table, th,td {
     border:1px solid rgb(201, 194, 194);
 }
 table {
-    table-layout: fixed;
+    table-layout:fixed;
     width:350px;
     max-width: 90%;
 
