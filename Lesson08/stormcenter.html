@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="It is the Preston Town Page assignment by Jennifer Tippets in Web  Frontend Development at Brigham Young University - Idaho. ">
-    <title>Weather Gallery</title>
+    <title>Storm Center</title>
 <link rel="shortcut icon" href="../favicon(1).ico">
 
     <link rel="stylesheet" href="./css8/normalize.css"/>
-    <link rel="stylesheet" href="./css8/large.css"/>
-    <link rel="stylesheet" href="./css8/medium.css"/>
     <link rel="stylesheet" href="./css8/small.css"/>
+    <link rel="stylesheet" href="./css8/medium.css"/>
+    <link rel="stylesheet" href="./css8/large.css"/>
 
     
 </head>
@@ -36,12 +36,84 @@
             <li><a href="../Lesson06/preston-6.html">Preston</a></li>  
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
-            <li class="active"><a href="./stormcenter.html">Storm Center</a></li>
+            <li class="active"><a href="../Lesson08/stormcenter.html">Storm Center</a></li>
             <li><a href="../Lesson07/gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
     <main>
+        <h1>Storm Center</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+             <legend>Visitor Information</legend> 
+             <label class="first">Full Name:
+                 <input type="text" name="full-name" required pattern="[\sA-Za-z]{5,}"></label>
+             
+             <label class="first">Email:
+                 <input type="email" name="email" placeholder="visitor@gmail.com" ></label> 
     
+             <label class="first">Phone Number:
+                 <input type="tel" name="phone"placeholder="###-###-####" required></label><br>
+    
+             <label class="first">Zip code:
+                 <input type="number" name="zip" pattern="(\d{5}([\-]\d{4})?)" required></label>
+            </fieldset>
+    <br>
+    <br>
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="second">Storm Date <input type="date" name="storm-date"></label>
+
+                <label class="second">Storm Type <select name="storm-type">
+                    <option value="">Please Select</option>
+                    <option value="Flood">Flash Flood</option>
+                    <option value="Hail">Hail</option>
+                    <option value="Hurricane">Hurricane</option>
+                    <option value="Thunderstorm">Thunderstorm</option>
+                    <option value="Tornado">Tornado</option>
+                </select>
+                </label>
+
+                <label class="second">Storm Region <select name="storm-region">
+                    <option value="">Select Region</option>
+                    <option value="preston">Preston</option>
+                    <option value="springs">Soda Springs</option>
+                    <option value="haven">Fish Haven</option>
+                </select>
+                </label>
+
+               <br> <label class="third">Storm Severity range: &nbsp;&nbsp;&nbsp;
+                    <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span>
+               
+        
+                <datalist id="tickmarks">
+                    <option value="0">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
+               <span>Range value from 1 to 10.</span>
+         </label>
+
+        
+
+        <div>Are you in danger?</div>
+        <label class="third"><input type="radio" name="user" value="yes">Yes</label>
+        <label class="third"><input type="radio" name="user" value="maybe">Maybe</label>
+        <label class="third"><input type="radio" name="user" value="no">No</label><br>
+
+        <label class="third">Additional Information or Comments:<br> <textarea></textarea></label>
+            </fieldset>
+    <br>
+    <input type="submit" value="submit" class="button">
+        </form>
     </main>
     <footer>
      &copy; Colorado easy Weather |Colorado| Jennifer Tippets<br>
@@ -50,6 +122,7 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script src="./js8/app.js"></script>
-
+<script src="./js8/webfont.js"></script>
+<script src="./js8/storm.js"></script>
      </body>
 </html>

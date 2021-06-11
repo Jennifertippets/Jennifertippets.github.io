@@ -303,3 +303,24 @@ img {
     transition: filter 1.5s;
     max-width: 100%;
     }
+
+    /**********************Form page*************************/
+
+form fieldset {
+margin: auto;
+border: 8px solid #8a6c92;
+padding: 1rem 1.5%;
+}
+
+form legend {
+color:#1b1a1a;
+font-size: 25px;
+margin:0 1rem;
+padding: 0 0.5rem;
+}
+form label.first {
+display:block;
+padding-top: 1rem;
+color:#161515;
+font-size: 15px;
+}
