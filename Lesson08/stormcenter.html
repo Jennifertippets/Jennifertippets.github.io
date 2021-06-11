@@ -52,13 +52,13 @@
                  <input type="email" name="email" placeholder="visitor@gmail.com" ></label> 
     
              <label class="first">Phone Number:
-                 <input type="tel" name="phone"placeholder="###-###-####" required></label><br>
+                 <input type="tel" name="phone"placeholder="###-###-####" required></label>
     
              <label class="first">Zip code:
                  <input type="number" name="zip" pattern="(\d{5}([\-]\d{4})?)" required></label>
             </fieldset>
-    <br>
-    <br>
+    
+    
             <fieldset>
                 <legend>Storm Information</legend>
                 <label class="second">Storm Date <input type="date" name="storm-date"></label>
@@ -81,9 +81,9 @@
                 </select>
                 </label>
 
-               <br> <label class="third">Storm Severity range: &nbsp;&nbsp;&nbsp;
+               <br> <label class="third">Storm Severity range: <span id="ratingvalue">0</span> &nbsp;&nbsp;&nbsp;
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                    <span id="ratingvalue">5</span>
+                   
                
         
                 <datalist id="tickmarks">
@@ -99,17 +99,17 @@
                     <option value="9">
                     <option value="10">
                 </datalist>
-               <span>Range value from 1 to 10.</span>
+               <span class="storm">Range value from 1 to 10.</span>
          </label>
 
         
 
-        <div>Are you in danger?</div>
+        <div class="danger">Are you in danger?</div>
         <label class="third"><input type="radio" name="user" value="yes">Yes</label>
         <label class="third"><input type="radio" name="user" value="maybe">Maybe</label>
         <label class="third"><input type="radio" name="user" value="no">No</label><br>
 
-        <label class="third">Additional Information or Comments:<br> <textarea></textarea></label>
+        <label class="four">Additional Information or Comments: <textarea class="four"></textarea></label>
             </fieldset>
     <br>
     <input type="submit" value="submit" class="button">

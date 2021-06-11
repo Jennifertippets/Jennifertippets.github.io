@@ -310,17 +310,89 @@ form fieldset {
 margin: auto;
 border: 8px solid #8a6c92;
 padding: 1rem 1.5%;
+background-color: #FED9B7;
 }
 
 form legend {
 color:#1b1a1a;
 font-size: 25px;
-margin:0 1rem;
-padding: 0 0.5rem;
+margin:1rem 1rem;
+padding: 1rem 0.5rem 0rem;
 }
 form label.first {
 display:block;
 padding-top: 1rem;
-color:#161515;
+color:#251e1e;
 font-size: 15px;
+}
+form label.first input {
+display:block;
+width:40%;
+padding: 5px 5px;
+margin: 10px;
+box-sizing:border-box;
+}
+
+form label.second {
+  display:block;
+  padding-top: 1rem;
+  color:#251e1e;
+  font-size: 15px; 
+}
+form label.second select, input {
+    display:block;
+    width:40%;
+    padding: 5px 5px;
+    margin: 10px;
+    box-sizing:border-box;
+    }
+.storm {
+    display:block;
+    font-size: 12px; 
+    margin: -20px 6rem 1px;
+}
+.danger {
+    display:block;
+    margin-top: 2rem;
+}
+form label.third {
+display:block;
+margin-bottom: 2rem;
+
+}
+form label.four {
+    margin: 1rem;
+}
+
+form input.button {
+  border: none;
+  background-color: #8a6c92; 
+  color:#eee;
+  font-size: 25px; 
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  max-width: 20rem;
+  width:90%
+
+}
+
+/***************************End Form Page***********************************/
+
+/***********************************Thank you page******************************************/
+.text {
+    width: 90%;
+    border-style: hidden #f07167;
+    background-color: #f5d4ef;
+    border-radius: 30%;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Padauk', sans-serif;
+    padding: 2.5rem 1rem 0.5rem;
+    margin: 0 auto;
+}
+.thanks {
+    margin: 2rem;
+    
+
 }
