@@ -46,9 +46,18 @@ img{
 
 /*******************thanks page*************************/
 
-.text {
+.thanks {
     width: 600px;
+  margin-top: 10rem;
+}
+
+.text {
+    width: 500px;
+    margin: 2rem 3rem 2rem;
   
+}
+.thank-you {
+    margin: 20rem 0 -1rem;
 }
 /************************end thanks page*****************************/
   }

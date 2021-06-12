@@ -403,18 +403,16 @@ form label.four {
 
 /***********************************Thank you page******************************************/
 .text {
-    width: 90%;
-    border-style: hidden #f07167;
+    max-width: 100%;
+    border-style: hidden;
     background-color: #f5d4ef;
     border-radius: 30%;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-family:'Padauk', sans-serif;
     padding: 2.5rem 1rem 0.5rem;
     margin: 0 auto;
 }
-.thanks {
-    margin: 2rem;
-    
-
+.thank-you {
+    margin: 2rem 0 -1rem;
 }
