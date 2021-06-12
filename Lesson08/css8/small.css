@@ -306,6 +306,9 @@ img {
 
     /**********************Form page*************************/
 
+.stormy {
+font-size: 25px;
+}    
 form fieldset {
 margin: auto;
 border: 8px solid #8a6c92;
@@ -315,9 +318,9 @@ background-color: #FED9B7;
 
 form legend {
 color:#1b1a1a;
-font-size: 25px;
-margin:1rem 1rem;
-padding: 1rem 0.5rem 0rem;
+font-size: 20px;
+margin:0 1rem 1rem;
+padding: 0.5rem 0.5rem 0rem;
 }
 form label.first {
 display:block;
