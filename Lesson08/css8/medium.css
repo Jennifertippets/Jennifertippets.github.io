@@ -122,4 +122,32 @@
     
   }
 /************************end thanks page*****************************/
+
+
+/********************form page*********************/
+.stormcenter {
+    width: 600px;
+    margin:0 auto;
+}
+form label.first input {
+    display:block;
+    width:60%;
     }
+
+    form label.second select, form label.second input {
+        display:block;
+        width:60%;
+    }
+    form input.button {
+        
+        width:30%;
+        margin: 0 13rem 1.5rem;
+        font-size: 30px;
+      
+      }
+      .textarea {
+        display:block;
+        margin: 1rem 1.5rem 1rem;
+        width: 90%;
+      }
+ }

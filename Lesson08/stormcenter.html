@@ -40,7 +40,7 @@
             <li><a href="../Lesson07/gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
-    <main>
+    <main class="stormcenter">
         <h1>Storm Center</h1>
         <form method="get" action="thanks.html">
             <fieldset>
@@ -81,7 +81,7 @@
                 </select>
                 </label>
 
-               <br> <label class="third">Storm Severity range: <span id="ratingvalue">0</span> &nbsp;&nbsp;&nbsp;
+               <label class="second">Storm Severity range: <span id="ratingvalue">0</span> &nbsp;&nbsp;&nbsp;
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                    
                
@@ -105,11 +105,12 @@
         
 
         <div class="danger">Are you in danger?</div>
+
         <label class="third"><input type="radio" name="user" value="yes">Yes</label>
         <label class="third"><input type="radio" name="user" value="maybe">Maybe</label>
         <label class="third"><input type="radio" name="user" value="no">No</label><br>
-
-        <label class="four">Additional Information or Comments: <textarea class="four"></textarea></label>
+         <br>
+        <label class="four">Additional Information or Comments: <textarea class="textarea"></textarea></label>
             </fieldset>
     <br>
     <input type="submit" value="submit" class="button">

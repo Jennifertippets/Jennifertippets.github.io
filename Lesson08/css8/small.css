@@ -327,7 +327,7 @@ font-size: 15px;
 }
 form label.first input {
 display:block;
-width:40%;
+width:90%;
 padding: 5px 5px;
 margin: 10px;
 box-sizing:border-box;
@@ -339,9 +339,9 @@ form label.second {
   color:#251e1e;
   font-size: 15px; 
 }
-form label.second select, input {
+form label.second select, form label.second input {
     display:block;
-    width:40%;
+    width:90%;
     padding: 5px 5px;
     margin: 10px;
     box-sizing:border-box;
@@ -349,19 +349,27 @@ form label.second select, input {
 .storm {
     display:block;
     font-size: 12px; 
-    margin: -20px 6rem 1px;
+    margin: -10px 2rem 1px;
 }
 .danger {
     display:block;
     margin-top: 2rem;
 }
-form label.third {
+
+
+form label.third input {
 display:block;
-margin-bottom: 2rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
 
 }
-form label.four {
-    margin: 1rem;
+
+.textarea {
+    display:block;
+    margin: 1rem 0.5rem 1rem;
+    width: 90%;
+    border: 1px solid #530a46;
+
 }
 
 form input.button {
@@ -369,14 +377,24 @@ form input.button {
   background-color: #8a6c92; 
   color:#eee;
   font-size: 25px; 
-  margin: auto;
+  margin:0 auto;
   margin-bottom: 1rem;
   padding: 1rem;
-  max-width: 20rem;
-  width:90%
+  width:100%
 
 }
 
+form label.first input:required {
+    border-bottom:red solid 6px;
+}
+
+form label.first input:required:valid {
+    border-bottom: green solid 6px;
+}
+
+form label.four {
+    margin-top: rem;
+}
 /***************************End Form Page***********************************/
 
 /***********************************Thank you page******************************************/
