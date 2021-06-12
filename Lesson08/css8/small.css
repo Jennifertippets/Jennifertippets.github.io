@@ -351,12 +351,13 @@ form label.second select, form label.second input {
     }
 .storm {
     display:block;
-    font-size: 12px; 
+    font-size: 15px; 
     margin: -10px 2rem 1px;
 }
 .danger {
     display:block;
     margin-top: 2rem;
+    font-size: 15px;
 }
 
 
@@ -364,7 +365,7 @@ form label.third input {
 display:block;
 margin-top: 1rem;
 margin-bottom: 1rem;
-
+font-size: 10px;
 }
 
 .textarea {
@@ -396,7 +397,7 @@ form label.first input:required:valid {
 }
 
 form label.four {
-    margin-top: rem;
+    font-size: 15px;
 }
 /***************************End Form Page***********************************/
 

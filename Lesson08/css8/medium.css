@@ -132,6 +132,21 @@
     width: 600px;
     margin:0 auto;
 }
+.storm {
+
+    font-size: 18px; 
+    
+}
+.danger {
+
+    font-size: 23px;
+}
+
+form label.third {
+   font-size: 20px;
+    
+    }
+    
 form label.first input {
     display:block;
     width:60%;
@@ -166,4 +181,8 @@ form label.first input {
         margin: 1rem 1.5rem 1rem;
         width: 90%;
       }
+      form label.four {
+        font-size: 20px;
+    }
+    
  }
