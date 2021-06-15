@@ -1,0 +1,64 @@
+@media only screen and (min-width: 60em){
+    nav ul {
+        display: flex;
+    }
+    nav li {
+        display:inline-block;
+        
+    }
+    nav ul li {
+        flex: 1 1 1 100%;
+    }
+nav ul li a {
+    padding: 0.6rem 1rem;
+}
+
+ .pink {
+     max-width: 100%;
+ } 
+ .map {
+     max-width: 100%;
+ } 
+ 
+ main {
+     margin: 0 auto;
+ }
+/********************gallery page**********************/  
+
+
+.gallery-pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 18px;
+    justify-self: center;
+   
+} 
+.images {
+    padding: auto;
+    max-width: 100%;
+}
+img{
+    max-width: 100%;
+}
+ 
+/********************end gallery page*******************************/
+
+/*******************thanks page*************************/
+
+.thanks {
+    width: 600px;
+  margin-top: 10rem;
+}
+
+.text {
+    width: 500px;
+    margin: 2rem 3rem 2rem;
+  
+}
+.thank-you {
+    margin: 20rem 0 -1rem;
+}
+/************************end thanks page*****************************/
+  }
+}
