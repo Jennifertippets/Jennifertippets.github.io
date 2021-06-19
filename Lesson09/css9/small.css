@@ -416,3 +416,44 @@ form label.four {
 .thank-you {
     margin: 2rem 0 -1rem;
 }
+
+/*********************end thank you page********************/
+
+
+/*************************Weather site page**************************/
+.weather {
+    max-width: 1000px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    margin: 1rem 0.5rem;
+    background-color: #8a6c92;
+    padding: 4rem 0.5rem 4rem;
+}
+
+.cards section {
+border: solid 2px #530a46;
+text-align: center;
+background-color: #FED9B7;
+padding: 0.5rem;
+
+}
+.cards section h2 {
+    font-family:'Fira Sans', sans-serif;
+    font-size: 40px;
+    color: #8a6c92;
+
+}
+
+.cards section h3 {
+    font-family:'Padauk', sans-serif;
+    font-size: 20px;
+    margin-top: -1.5rem;
+
+}
+.cards section img {
+    width: 100%;
+    margin-bottom: -0.3rem;
+}
