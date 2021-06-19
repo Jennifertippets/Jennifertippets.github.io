@@ -82,7 +82,7 @@ nav ul.hide {
 
 /*-----------Main------------*/
  main {
-    max-width: 950px;
+    max-width: 1200px;
     margin: 1rem 1rem;
     
 }
@@ -422,13 +422,13 @@ form label.four {
 
 /*************************Weather site page**************************/
 .weather {
-    max-width: 1000px;
+    max-width: 1200px;
 }
 .cards {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
-    margin: 1rem 0.5rem;
+    margin: 1rem 0rem;
     background-color: #8a6c92;
     padding: 4rem 0.5rem 4rem;
 }
@@ -449,11 +449,15 @@ padding: 0.5rem;
 
 .cards section h3 {
     font-family:'Padauk', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: -1.5rem;
 
 }
 .cards section img {
     width: 100%;
-    margin-bottom: -0.3rem;
+}
+.cards section p {
+    font-family:'Fira Sans', sans-serif; 
+    font-size: 15px;
+}
 }
