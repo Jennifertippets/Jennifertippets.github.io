@@ -471,3 +471,16 @@ padding: 0.5rem;
 .forest {
     min-width: 100%;
 }
+.main-article {
+    border: solid 10px #8a6c92;
+    margin: 0.5rem 0rem;
+}
+.article {
+    padding: 0.5rem;
+}
+
+.title-two {
+    text-align: left;
+    font-size: 20px;
+    padding: 1rem;
+}
