@@ -11,13 +11,14 @@ fetch(requestURL)
 
 		for (let i = 0; i < town.length; i++) {
 			let card = document.createElement('section');
+			
 			let h2 = document.createElement('h2');
 			let motto = document.createElement('h3');
 			let founded = document.createElement('p');
 			let population = document.createElement('p');
 			let rain = document.createElement('p');
             let image = document.createElement('img');
-
+	
             h2.innerHTML = `${town[i].name}`;
             motto.innerHTML = `${town[i].motto}`;
             founded.innerHTML = 'Year Founded: ' + `${town[i].yearFounded}`;

@@ -463,4 +463,11 @@ padding: 0.5rem;
     font-family:'Fira Sans', sans-serif; 
     font-size: 15px;
 }
+.site {
+    text-align: center;
+    font-size: 30px;
+    font-family:'Padauk', sans-serif; 
+}
+.forest {
+    min-width: 100%;
 }
