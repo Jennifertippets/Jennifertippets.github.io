@@ -90,10 +90,10 @@
 }
     .map {
         
-        display: block;
-        width: 100%;
+        display: flex;
+        width: 90%;
         margin-top: 1rem;
-        padding:3rem 0rem;
+        padding:3rem 1rem;
         justify-content: center;
             
     } 
