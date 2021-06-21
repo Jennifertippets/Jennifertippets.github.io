@@ -231,6 +231,12 @@ font-weight: bolder;
     font-size: 24px;
     
 }
+
+.icons {
+    display: flex;
+    margin: 6rem;
+    padding-right:5rem ;
+}
 .map {
  
    display: none;
