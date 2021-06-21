@@ -83,21 +83,18 @@
 .contact{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    
+
 }
 .contact-info{
-    margin-left: -3rem;
+    margin-left: 3rem;
+    
     font-size: 20px;
 }
-    .map {
-        
-        display: flex;
-        width: 90%;
-        margin-top: 1rem;
-        padding:3rem 1rem;
-        justify-content: center;
-            
-    } 
+.map {
+    width: 100%;
+    
+     padding: 1rem;
+        } 
 
 
  /********************gallery page**********************/ 
