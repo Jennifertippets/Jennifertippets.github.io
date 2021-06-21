@@ -205,26 +205,26 @@ font-weight: bolder;
 /**********contact*********/
 
 .contact {
+    position: relative;
+    margin: auto;
     background-color:#f07167;
-    align-content: center;
+   text-align: center;
    max-width: 100%;
-    padding: 0.5rem;  
+    padding: 1rem;  
+}    
 }
 .contact-info {
-
+    margin-top: auto;
     display:block;
     text-align:center;
-
-    margin: 2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 6px;  
 }
 
 .icon {
-    display: inline-flex;
     width: 30px;
     height: 30px;
     margin-right: 0.5rem;
-    margin-bottom: -0.5rem;
+    margin-bottom: -5px;
 
 }
 .contact-info h3 {
@@ -232,11 +232,7 @@ font-weight: bolder;
     
 }
 
-.icons {
-    display: flex;
-    margin: 6rem;
-    padding-right:5rem ;
-}
+
 .map {
  
    display: none;
