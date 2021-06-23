@@ -1,0 +1,107 @@
+@media only screen and (min-width: 60em){
+    nav ul {
+        display: flex;
+    }
+    nav li {
+        display:inline-block;
+        
+    }
+    nav ul li {
+        flex: 1 1 1 100%;
+    }
+nav ul li a {
+    padding: 0.6rem 1rem;
+}
+
+ .pink {
+     max-width: 100%;
+ } 
+ .map {
+     max-width: 100%;
+     
+     
+ } 
+ 
+ main {
+     margin: 0 auto;
+ }
+/********************gallery page**********************/  
+
+
+.gallery-pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 18px;
+    justify-self: center;
+   
+} 
+.images {
+    padding: auto;
+    max-width: 100%;
+}
+img{
+    max-width: 100%;
+}
+ 
+/********************end gallery page*******************************/
+
+/*******************thanks page*************************/
+
+.thanks {
+    width: 600px;
+  margin-top: 10rem;
+}
+
+.text {
+    width: 500px;
+    margin: 2rem 3rem 2rem;
+  
+}
+.thank-you {
+    margin: 20rem 0 -1rem;
+}
+/************************end thanks page*****************************/
+
+/*************************Weather site page**************************/
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.cards section {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+
+}
+
+.cards section img {
+margin-top: 2rem;
+align-content: center;
+}
+
+
+.cards section:nth-child(even) img {
+    grid-column: 2;
+    align-items: center;
+    margin: 0.5rem 9rem -1.2rem 0.1rem;
+
+}
+
+.cards section:nth-child(even) h2 {
+    grid-column: 2;
+}
+.cards section:nth-child(even) h3 {
+    grid-column: 2;
+    margin-top: -2.5rem;
+}
+.cards section:nth-child(even) p {
+    grid-column: 2;
+    margin-top: -1rem; 
+    padding-bottom: 1rem;   
+}
+
+  }
+ 
