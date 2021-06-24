@@ -18,13 +18,10 @@ nav ul li a {
  } 
  .map {
      max-width: 100%;
-     
-     
- } 
- 
- main {
-     margin: 0 auto;
- }
+     } 
+     .weatherbox {
+         top: 5rem;
+     }
 /********************gallery page**********************/  
 
 
