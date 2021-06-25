@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./css10/small.css"/>
     <link rel="stylesheet" href="./css10/medium.css"/>
     <link rel="stylesheet" href="./css10/large.css"/>
-
+    <script defer src="./JS10/weatherapi.js"></script>
     
 </head>
 <body>
@@ -56,13 +56,13 @@
             <section class="weatherbox">
                 <h3>Weather Summary</h3>
 
-                <p>Currently: Sunny</p>
+                <p>Currently: <span id="currently">Broken clouds</span></p>
 
-                <p>Temperature: <span id="temp">47</span>&deg;F</p>
+                <p>Temperature: <span id="temp">63</span>&deg;F</p>
     
                 <p>Wind Chill: <span id="wind"></span></p>
                 
-                <p>Humidity: 69%</p>
+                <p>Humidity: <span id="humidity"></span>%</p>
                 
                 <p>wind Speed: <span id="speed">5</span>mph</p>
     
@@ -156,7 +156,8 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script src="./JS10/app.js"></script>
-<script src="./JS10/windchill.js"></script>
-<script src="./JS10/weatherapi.js"></script>
+<!--<script src="JS10/windchill.js"></script>-->
+
+
      </body>
 </html>
