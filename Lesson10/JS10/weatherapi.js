@@ -7,6 +7,22 @@ fetch(apiURL)
     document.getElementById('temp').textContent = jsObject.main.temp.toFixed(0);
     document.getElementById('humidity').textContent = jsObject.main.humidity;
     document.getElementById('speed').textContent = jsObject.wind.speed;
+
+    let Temp = jsObject.main.temp;
+   let speedW = jsObject.wind.speed;
+console.log(Temp);
+console.log(speedW);
+   if(Temp <= 50 && speedW >= 3){
+     let p = Math.pow(speedW, 0.16);
+     let f = 35.74 + 0.6215 * Temp - 35.75 * p + 0.4275 * Temp * p;
+     let result = f.toFixed(0);
+     document.getElementById('wind').textContent = result + "&deg;F";
+   }
+   else{
+      document.getElementById('wind').textContent = "N/A";
+   }
   });
 
-  
+
+ 
+ 

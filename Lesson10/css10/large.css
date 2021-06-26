@@ -22,6 +22,12 @@ nav ul li a {
      .weatherbox {
          top: 5rem;
      }
+
+     main {
+        display:block;
+        margin: 0 auto;
+
+    }
 /********************gallery page**********************/  
 
 

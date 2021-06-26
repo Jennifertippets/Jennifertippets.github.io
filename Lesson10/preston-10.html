@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="./css10/medium.css"/>
     <link rel="stylesheet" href="./css10/large.css"/>
     <script defer src="./JS10/weatherapi.js"></script>
-    
+    <script defer src="JS10/forecast.js"></script>
+
 </head>
 <body>
     <aside id="friday">Saturday = Preston Pancakes in the Park!<br>
@@ -58,13 +59,13 @@
 
                 <p>Currently: <span id="currently">Broken clouds</span></p>
 
-                <p>Temperature: <span id="temp">63</span>&deg;F</p>
+                <p>Temperature: <span id="temp"></span>&deg;F</p>
     
                 <p>Wind Chill: <span id="wind"></span></p>
                 
                 <p>Humidity: <span id="humidity"></span>%</p>
                 
-                <p>wind Speed: <span id="speed">5</span>mph</p>
+                <p>wind Speed: <span id="speed"></span>mph</p>
     
             </section>
         
@@ -72,35 +73,11 @@
         
          <h3 class="day">5 Day Forecast</h3>   
         <div class="forcast">
-            <div class="forcast1">
-                <span class="subforcast1">Wed</span>
-                <img src="images6/iconfinder_summer-vacation-sun-sunlight-summer-heat-hot_5854009.png" alt="sun">
-                <span class="subforcast2">87&deg;F</span>
-            </div> <div class="forcast1">
-                <span class="subforcast1">Thu</span>
-                <img src="images6/iconfinder_summer-vacation-sun-sunlight-summer-heat-hot_5854009.png" alt="sun">
-                <span class="subforcast2">90&deg;F</span>
-            </div>
-            <div class="forcast1">
-                <span class="subforcast1">Fri</span>
-                <img src="images6/iconfinder_summer-vacation-sun-sunlight-summer-heat-hot_5854009.png" alt="sun">
-                <span class="subforcast2">92&deg;F</span>
-            </div>
-            <div class="forcast1">
-                <span class="subforcast1">Sat</span>
-                <img src="images6/iconfinder_summer-vacation-sun-sunlight-summer-heat-hot_5854009.png" alt="sun">
-                <span class="subforcast2">91&deg;F</span>
-            </div>
-            <div class="forcast1">
-                <span class="subforcast1">Sun</span>
-                <img src="images6/iconfinder_summer-vacation-sun-sunlight-summer-heat-hot_5854009.png" alt="sun">
-                <span class="subforcast2">89&deg;F</span>
-            </div>
-            <div class="forcast1">
-                <span class="subforcast1">Mon</span>
-                <img src="images6/iconfinder_summer-vacation-sun-sunlight-summer-heat-hot_5854009.png" alt="sun">
-                <span class="subforcast2">93&deg;F</span>
-            </div>
+            <p><span id="dayofweek1"></span><img id="image1" src="..." alt="..."><span id="forecast1"></span>&deg; F</p>
+            <p><span id="dayofweek2"></span><img id="image2" src="..." alt="..."><span id="forecast2"></span>&deg; F</p>
+            <p><span id="dayofweek3"></span><img id="image3" src="..." alt="..."><span id="forecast3"></span>&deg; F</p>
+            <p><span id="dayofweek4"></span><img id="image4" src="..." alt="..."><span id="forecast4"></span>&deg; F</p>
+            <p><span id="dayofweek5"></span><img id="image5" src="..." alt="..."><span id="forecast5"></span>&deg; F</p>
         </div>
                     
 
@@ -156,8 +133,7 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script src="./JS10/app.js"></script>
-<!--<script src="JS10/windchill.js"></script>-->
-
+<script defer src="JS10/windchill.js"></script>
 
      </body>
 </html>
