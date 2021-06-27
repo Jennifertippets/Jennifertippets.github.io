@@ -518,19 +518,4 @@ padding: 0.5rem;
 	background-color:#8a6c92;
 	color: white;   
 }
-#forecast1,
-#forecast2,
-#forecast3,
-#forecast4,
-#forecast5{
-    display: block;
-	padding: 0 5px 5px;
-	font-size: 0.8rem;
-	text-align: center;
-}
-.fore2 {
-    display:inline-flex;
-    text-align:center;
 
- 
-}
