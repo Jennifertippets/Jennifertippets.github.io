@@ -18,7 +18,7 @@ fetch(forecastURL)
      
       let days = x.weather[0].icon;
 
-      const imagesrc = 'https://openweathermap.org/img/w/' + days + '.png'; 
+      const imagesrc = 'https://openweathermap.org/img/wn/' + days + '@2x.png'; 
       const desc = x.weather[0].description;
     
     

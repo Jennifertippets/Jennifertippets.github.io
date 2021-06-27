@@ -499,7 +499,7 @@ padding: 0.5rem;
 }
 .fore {
     flex: 1 1 auto;
-    background-color: #f07167;
+    background-color:#FED9B7 ;
     border-bottom: transparent;
 	border-left: transparent;
 	text-align: center;
@@ -518,4 +518,6 @@ padding: 0.5rem;
 	background-color:#8a6c92;
 	color: white;   
 }
-
+.degree {
+    margin-top:-0.5rem;
+}
