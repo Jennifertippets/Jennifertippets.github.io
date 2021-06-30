@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="It is the Preston Town Page assignment by Jennifer Tippets in Web  Frontend Development at Brigham Young University - Idaho. ">
+    <title>Preston Town</title>
+<link rel="shortcut icon" href="./images/favicon.ico">
+
+    <link rel="stylesheet" href="./css10/normalize.css"/>
+    <link rel="stylesheet" href="./css10/small.css"/>
+    <link rel="stylesheet" href="./css10/medium.css"/>
+    <link rel="stylesheet" href="./css10/large.css"/>
+    <script defer src="./JS10/weatherapi.js"></script>
+    <script defer src="JS10/forecast.js"></script>
+
+</head>
+<body>
+    <aside id="friday">Saturday = Preston Pancakes in the Park!<br>
+    9:00 a.m. Friday at the city park</aside>
+    <header>
+        <picture>
+        <img src="./images/iconfinder_weather_1054936.png" alt="weather logo"/>
+       </picture>
+       <section class="grapeone">
+        <h1>Colorado Easy Weather</h1> 
+        <div class="grapetwo">A better way to be informed!</div>
+    
+        </section>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul class="hide"id="menu" >
+        
+         <li><a href="../index.html"></a></li> 
+         <li><a href="../Lesson09/index.html">Home</a></li>
+         <li class="active"><a href="./preston-10.html">Preston</a></li>  
+         <li><a href="#">Soda Springs</a></li>
+         <li><a href="#">Fish Haven</a></li>
+         <li><a href="../Lesson08/stormcenter.html">Storm Center</a></li>
+         <li><a href="../Lesson07/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class="center">Preston Idaho</h2>
+        
+        <div class="hero">
+
+        <picture>
+        <source media="(max-width: 500px)" srcset="./images/hero-small500.jpg" >
+        <source media="(max-width: 800px)" srcset="./images/hero-medium800.jpg" >   
+        <img class="pink" src="./images/hero-large1200.jpg" alt="main picture" >
+       </picture>
+
+
+
+            <section class="weatherbox">
+                <h3>Weather Summary</h3>
+
+                <p>Currently: <span id="currently">Broken clouds</span></p>
+
+                <p>Temperature: <span id="temp"></span>&deg;F</p>
+    
+                <p>Wind Chill: <span id="wind"></span></p>
+                
+                <p>Humidity: <span id="humidity"></span>%</p>
+                
+                <p>wind Speed: <span id="speed"></span>mph</p>
+    
+            </section>
+        
+        </div>
+        
+         <h3 class="day">5 Day Forecast</h3>   
+        <div class="forecastone">
+
+            <div class="fore">
+               <span id="dayofweek1"></span>
+                <img id="image1" src="..." alt="...">
+             <p class="degree"><span id="forecast1"></span>&deg;F</p>
+            </div>
+            
+
+            <div class="fore">
+                <span id="dayofweek2"></span>
+                <img id="image2" src="..." alt="...">
+                <p class="degree"><span id="forecast2"></span>&deg;F</p>
+            </div>
+            <div class="fore">
+                <span id="dayofweek3"></span>
+                <img id="image3" src="..." alt="...">
+                <p class="degree"><span id="forecast3"></span>&deg;F</p>
+            </div>
+            <div class="fore">
+                <span id="dayofweek4"></span>
+                <img id="image4" src="..." alt="...">
+               <p class="degree"><span id="forecast4"></span>&deg;F</p>
+            </div>
+            <div class="fore">
+                <span id="dayofweek5"></span>
+                <img id="image5" src="..." alt="...">
+                <p class="degree"><span id="forecast5"></span>&deg;F</p>
+            </div>
+        </div>
+                    
+
+
+        <div class="Article">
+          <section>
+              <picture>
+                <source media="(max-width: 500px)" srcset="./images/small250x167.jpg"/>
+                <source media="(max-width: 800px)" srcset="./images/medium400x225.jpg"/>   
+              <img src="./images/large600x400.jpg" alt="main picture">
+            </picture>
+              <h2>15 Best Things to Do in Preston(Idaho)</h2>    
+              <h3>by The Crazy Tourist website</h3>
+
+              
+              <p>In Southeastern Idaho’s Cache Valley, Preston is a rural town with astounding mountain scenery on its doorstep.
+
+                On the eastern flank are the Bear River Mountains, and in a few minutes flat you can be fishing at a crystal clear lake or hiking in an alpine meadow.
+                
+                Franklin, Idaho’s oldest European settlement is on Preston’s outskirts and is a starting point for an historic byway, connecting a long chain of sites relating to the region’s Native American past, pioneer days and the Oregon Trail, which passed by the Cache Valley to the north.
+                
+                As the Franklin County Seat, Preston hosts some major events at the fairground on the west side of town, and none are bigger than That Famous Preston Night Rodeo, which is celebrated with three days of carnival amusements and parades.<a href="https://www.thecrazytourist.com/15-best-things-to-do-in-preston-idaho/">Continue to full article</a></p>
+                <br><h3>Places to visit</h3>
+               <ul>
+                <li>Pioneer Historic Byway</li>
+                <li>Bear River Massacre Site</li>
+                <li>Napoleon Dynamite Filming Locations</li>
+                <li>Preston Park</li>
+                <li>Franklin Relic Hall</li>
+                <li>Glendale Reservoir</li>
+                <li>Oneida Narrows Reservoir</li>
+                <li>Oneida Stake Academy</li>
+                <li>Willow Flat Springs Trail</li>
+                <li>Preston Golf and Country Club</li>
+                <li>Bear Lake</li>
+                <li>That Famous Preston Night Rodeo</li>
+                <li>Franklin County Fair</li>
+                <li>Festival of Lights</li>
+                <li>National Oregon/California Trail Center</li> 
+                </ul>
+              
+          </section>  
+        </div>
+
+        <div class="contact">
+            <picture>
+                <!--<source media="(max-width: 500px)" srcset="./images/map300x200.jpg"/> -->
+                <source media="(max-width: 800px)" srcset="./images/map400x300.jpg"/>      
+            <img class="map" src="./images/map700x420.jpg" alt="Idaho city"/>
+            </picture>
+            <section class="contact-info">
+            
+                <h3>Colorado easy Weather</h3>
+                <p><img class="icon" src="./images/iconfinder_LocationPin2_1737383.png" alt="location"> 30 N 1st E </p>
+                <p>Parker, CO 80138</p>
+                <p><img class="icon" src="./images/iconfinder_09_111025.png" alt="phone">999.999.9999</p>
+                <p><img class="icon" src="./images/iconfinder_message_370078.png" alt="letter">Coloradoeasyweather@mail.com</p> <br>
+               
+
+            <a href="https://www.facebook.com/" target="_blank">
+                <img class="icons" alt="facebook" src="./images/facebook.png"></a>
+            <a href="https://www.pinterest.com/" target="_blank">
+                <img class="icons" alt="Pinterest" src="./images/pinterest.png"></a>
+            <a href="https://twitter.com/" target="_blank">
+                <img class="icons"  alt="Twitter" src="./images/twitter.png"></a>
+           
+            </section>
+            
+            
+        </div>
+    </main>
+    <footer>
+     &copy; Colorado easy Weather |Colorado| Jennifer Tippets<br>
+     <span id="date"></span>
+     
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="./JS10/app.js"></script>
+<script defer src="JS10/windchill.js"></script>
+
+     </body>
+</html>
