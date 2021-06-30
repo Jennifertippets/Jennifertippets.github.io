@@ -89,6 +89,10 @@ body {
   margin: 5px;
 }
 
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
 #friday {
     background-color:yellow;
@@ -294,7 +298,8 @@ footer {
 
 .gallery-main {
    
-    padding-bottom: 4rem;    
+    padding-bottom: 4rem; 
+    max-width: 1000px;   
 }
 
 .images:hover {box-shadow: 0 0 40px #8a6c92;
