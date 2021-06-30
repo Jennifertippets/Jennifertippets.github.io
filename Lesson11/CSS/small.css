@@ -280,6 +280,7 @@ footer {
 .gallery-title {
     font-size: 40px;
     font-family: 'Padauk', sans-serif;
+    text-align: center;
 }
 
 .gallery-pictures {
