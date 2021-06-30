@@ -6,10 +6,12 @@ header {
 
     background-color: #FED9B7;
     padding: 20px;
+    margin:0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width:100%
+    
+   
 
 }
 header img {
@@ -39,52 +41,54 @@ header img {
 
 /*------------nav--------*/
 nav button {
-   margin: 0.2rem 45%;
-   background-color: transparent;
-   border:none; 
-   font-size: 1.6rem;
-   
-}
-nav {
-    background-color: #f07167;
-    text-align: center;
-    margin-top: -1px;
-    }
-       
-    nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
-    nav ul li a {
-    display: block;
-    color:rgb(20, 18, 16);
-    text-align: center;
-    padding: 0.75rem;
-    text-decoration: none;
-     font-size: 0.95rem;  
-     font-family: 'Fira Sans', sans-serif;     
-    }
-    nav ul li.active a {
-     background-color:#8a6c92;
-     color:white;   
-    }
-nav a:hover {
-    background-color:#FED9B7;
+    margin: 0.2rem 45%;
+    background-color: transparent;
+    border:none; 
+    font-size: 1.6rem;
     
-}
-nav ul.hide {
-    display: none;
-}
+ }
+ nav {
+     background-color: #f07167;
+     text-align: center;
+     margin-top: -1px;
+     }
+        
+     nav ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+     }
+     nav ul li a {
+     display: block;
+     color:rgb(20, 18, 16);
+     text-align: center;
+     padding: 0.75rem;
+     text-decoration: none;
+      font-size: 0.95rem;  
+      font-family: 'Fira Sans', sans-serif;     
+     }
+     nav ul li.active a {
+      background-color:#8a6c92;
+      color:white;   
+     }
+ nav a:hover {
+     background-color:#FED9B7;
+     
+ }
+ nav ul.hide {
+     display: none;
+ }
+ 
+
 
 /*-------------nav------*/
+body {
+  background-color:rgb(252, 249, 249) ;  
+  padding: 0;
+  margin: 5px;
+}
 
-/*-----------Main------------*/
- main {
-    max-width: 1000px;
-    margin: 1rem 1rem;
-    }
 
 #friday {
     background-color:yellow;
@@ -96,6 +100,7 @@ nav ul.hide {
     
 .center{
     text-align: center;
+
     font-size: 30px;
     font-family: 'Fira Sans', sans-serif;
 }
@@ -257,7 +262,6 @@ font-weight: bolder;
 /*------------footer--------*/
 footer {
     background-color: #FED9B7;
- 
     text-align: center;
     margin: 0 auto;
     padding: 1rem;

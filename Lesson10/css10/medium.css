@@ -20,36 +20,33 @@
 
 
 /********end header****/
+/**************Nav**************/
 
-    nav button{
-        display: none;
-    }
-    nav ul {
-        display: flex;
-    }
-    nav li {
-        display:inline-block;
-        
-    }
-    nav ul li {
-        flex: 1 1 100%;
-    } 
+nav button{
+    display: none;
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    display:inline-block;
     
-    nav ul.hide {
-        display: block;
-    }
+}
+nav ul li {
+    flex: 1 1 100%;
+} 
 
-   nav ul li a {
-       font-size: 20px;
-   }
+nav ul.hide {
+    display: block;
+}
 
-    
+nav ul li a {
+   font-size: 20px;
+}
+
+  
 /********main********/
- main {
-        display:block;
-        margin: 1rem;
 
-    }
     .pink {
       max-width: 100%;  
     }
