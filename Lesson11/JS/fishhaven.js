@@ -1,4 +1,4 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=92d23e29b4ff25e703f6841c5f01cbaa&units=imperial";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?lat=42.0368759&lon=-111.3963177&appid=92d23e29b4ff25e703f6841c5f01cbaa&units=imperial";
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -21,9 +21,4 @@ console.log(speedW);
    else{
       document.getElementById('wind').textContent = "N/A";
    }
-  });
-
-
- 
- 
- 
+  }); 
