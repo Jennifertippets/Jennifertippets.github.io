@@ -440,9 +440,7 @@ form label.four {
 
 
 /*************************Weather site page**************************/
-/*.weather {
-    max-width: 1200px;
-}*/
+
 .cards {
     display: grid;
     grid-template-columns: 1fr;
@@ -531,4 +529,22 @@ padding: 0.5rem;
 }
 .degree {
     margin-top:-0.5rem;
+}
+/*********************preston events*********************/
+
+.notes {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    margin: 1rem 0rem;
+    background-color: #8a6c92;
+    padding: 4rem 0.5rem 4rem;
+  
+}
+.notes section {
+    border: solid 2px #530a46;
+    text-align: center;
+    background-color: #FED9B7;
+    padding: 0.5rem;
+     
 }

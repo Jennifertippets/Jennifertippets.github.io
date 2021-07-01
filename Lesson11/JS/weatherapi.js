@@ -55,27 +55,32 @@ console.log(speedW);
  });
 
 
- const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+ const request = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
- fetch(requestURL)
+ fetch(request)
    .then(function (response) {
      return response.json();
    })
    .then(function (jsonObject) {
-     const towns = jsonObject['towns'];
-         const town = towns.filter(x => x.name == 'Preston')
+     const preston = jsonObject['towns'];
+         const prestons = preston.filter(x => x.name == 'Preston')
  
-     for (let i = 0; i < town.length; i++) {
+     for (let i = 0; i < preston.length; i++) {
        let card = document.createElement('section');
        
        let event = document.createElement('p');
 
-       event.innerHTML = 'Upcoming Events: ' + `${town[i].events}`;
+       event.innerHTML = 'Upcoming Events:' + `${prestons[i].events}`;
+
+       
+       
+      
             
  
             
+        
          card.appendChild(event);
-          document.querySelector('div.cards').appendChild(card);
+          document.querySelector('div.notes').appendChild(card);
        }
      
    });
