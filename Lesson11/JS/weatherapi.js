@@ -68,18 +68,18 @@ console.log(speedW);
      for (let i = 0; i < preston.length; i++) {
        let card = document.createElement('section');
        
-       let event = document.createElement('p');
+       let event1 = document.createElement('p');
+       let event2 = document.createElement('p');
+       let event3 = document.createElement('p');
 
-       event.innerHTML = 'Upcoming Events:' + `${prestons[i].events}`;
+       event1.innerHTML = 'Upcoming Events:' + `${prestons[i].events[0]}`;
+       event2.innerHTML = 'Upcoming Events:' + `${prestons[i].events[1]}`;
+       event3.innerHTML = 'Upcoming Events:' + `${prestons[i].events[2]}`;
 
-       
-       
-      
-            
- 
-            
-        
-         card.appendChild(event);
+       card.appendChild(event1);
+       card.appendChild(event2);
+       card.appendChild(event3);
+
           document.querySelector('div.notes').appendChild(card);
        }
      
