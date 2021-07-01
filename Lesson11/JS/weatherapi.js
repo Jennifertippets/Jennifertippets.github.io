@@ -21,13 +21,13 @@ console.log(speedW);
    else{
       document.getElementById('wind').textContent = "N/A";
    }
-  });
+ });
 
   
   let cityID = 5604473;
   let appid = '92d23e29b4ff25e703f6841c5f01cbaa';
   const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?id=${cityID}&units=imperial&APPID=${appid}`;
-fetch(forecastURL)
+  fetch(forecastURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
@@ -55,6 +55,32 @@ fetch(forecastURL)
  });
 
 
+ const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+ fetch(requestURL)
+   .then(function (response) {
+     return response.json();
+   })
+   .then(function (jsonObject) {
+     const towns = jsonObject['towns'];
+         const town = towns.filter(x => x.name == 'Preston')
+ 
+     for (let i = 0; i < town.length; i++) {
+       let card = document.createElement('section');
+       
+       let event = document.createElement('p');
+
+       event.innerHTML = 'Upcoming Events: ' + `${town[i].events}`;
+            
+ 
+            
+         card.appendChild(event);
+          document.querySelector('div.cards').appendChild(card);
+       }
+     
+   });
+ 
+ 
  
  
  
