@@ -71,11 +71,11 @@ console.log(speedW);
        let event1 = document.createElement('p');
        let event2 = document.createElement('p');
        let event3 = document.createElement('p');
-
-       event1.innerHTML = 'Upcoming Events:' + `${prestons[i].events[0]}`;
-       event2.innerHTML = 'Upcoming Events:' + `${prestons[i].events[1]}`;
-       event3.innerHTML = 'Upcoming Events:' + `${prestons[i].events[2]}`;
-
+      
+       event1.innerHTML = `${prestons[i].events[0]}`;
+       event2.innerHTML = `${prestons[i].events[1]}`;
+       event3.innerHTML = `${prestons[i].events[2]}`;
+      
        card.appendChild(event1);
        card.appendChild(event2);
        card.appendChild(event3);
