@@ -217,7 +217,8 @@ font-weight: bolder;
 /**********contact*********/
 
 .contact {
-    position: relative;
+    display:grid;
+    grid-template-columns: 1fr;
     margin: auto;
     background-color:#f07167;
    text-align: center;
@@ -247,7 +248,7 @@ font-weight: bolder;
 
 .map {
  
-   display: none;
+   
    
 }
 
