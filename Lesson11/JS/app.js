@@ -5,16 +5,63 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 );
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
-/**************bar menu************/
 
-/*const menubutton = document.querySelector('.menu');
-const principalnav = document.querySelector('.hide')
-
-menubutton.addEventListener('click', () => {principalnav.classList.toggle('responsive')}, false);
-
-
-/*window.onresize = () => {if (window.innerWidth > 760) principalnav.classList.remove('responsive')};*/
 function toggleMenu() {
 	console.log(document.getElementById("menu").classList);
 	document.getElementById("menu").classList.toggle("hide");
 }
+
+/********************************web font********************************* */
+
+WebFont.load({google: {families: ["Fira Sans", "Padauk"]
+    }});
+
+/*******************gallery********************* */	
+
+/*function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}*/
+const imagesToLoad = document.querySelectorAll('img[data-src]');
+const loadImages = (image) => {
+    image.setAttribute('src', image.getAttribute('data-src'));
+    image.onload = () => {
+        image.removeAttribute('data-src');
+    
+    };
+};
+const imgOptions = {
+    rootMargin: '0px 0px 50px 0px',
+    threshold: 1
+};
+
+if ('IntersectionObserver' in window) {
+    const imgObserver = new IntersectionObserver(items => {
+        items.forEach(item => {
+            if (item.isIntersecting) {
+                loadImages(item.target);
+                imgObserver.unobserve(item.target);
+
+            }
+        });
+    }, imgOptions);
+
+    imagesToLoad.forEach(img => {
+        imgObserver.observe(img);
+    });
+} else {
+  imagesToLoad.forEach((img) => {
+      loadImages(img);
+  });
+}
+
+if(typeof Storage!=="undefined"){
+    if(localStorage.visitcount) {
+        document.getElementById("visit").innerHTML = "Welcome back, you've been here " + localStorage.visitcount  +  " times before.";
+        localStorage.visitcount = Number(localStorage.visitcount) + 1;
+    } else {
+        localStorage.visitcount = 1;
+        document.getElementById("visit").innerHTML = "Welcome. This is your first time here!";
+
+    }
+    }
+console.log("localstorage visit count now:" + localStorage.visitcount);

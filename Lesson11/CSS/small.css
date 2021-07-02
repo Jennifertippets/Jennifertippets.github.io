@@ -480,16 +480,23 @@ padding: 0.5rem;
 }
 .main-article {
     border: solid 10px #8a6c92;
-    margin: 0.5rem 0rem;
+    margin: 1rem 0rem;
+    text-align: left;
+    background-color: #FED9B7;
+    font-family:'Padauk', sans-serif; 
 }
 .article {
     padding: 0.5rem;
 }
-
+.weather1 {
+    margin-left: 0.5rem;
+}
 .title-two {
     text-align: left;
     font-size: 20px;
     padding: 1rem;
+    margin-left: -0.5rem;
+    font-family:'Fira Sans', sans-serif;
 }
 /*****************************Preston page forecast****************************************/
 .forecastone {

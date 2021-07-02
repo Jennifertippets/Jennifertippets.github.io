@@ -52,3 +52,37 @@ fetch(forecastURL)
     day++;
   });
  });
+
+ const request = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+ fetch(request)
+   .then(function (response) {
+     return response.json();
+   })
+   .then(function (jsonObject) {
+     const preston = jsonObject['towns'];
+         const prestons = preston.filter(x => x.name == 'Fish Haven')
+ 
+     for (let i = 0; i < preston.length; i++) {
+       let card = document.createElement('section');
+       
+       let event1 = document.createElement('p');
+       let event2 = document.createElement('p');
+       let event3 = document.createElement('p');
+      
+       event1.innerHTML = `${prestons[i].events[0]}`;
+       event2.innerHTML = `${prestons[i].events[1]}`;
+       event3.innerHTML = `${prestons[i].events[2]}`;
+      
+       card.appendChild(event1);
+       card.appendChild(event2);
+       card.appendChild(event3);
+
+          document.querySelector('div.notes').appendChild(card);
+       }
+     
+   });
+ 
+ 
+ 
+ 
