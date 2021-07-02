@@ -105,6 +105,10 @@ align-content: center;
     margin-top: -1rem; 
     padding-bottom: 1rem;   
 }
-
+/*************preston events***************/
+.notes section {
+    padding: 1rem;
+    margin: 0rem 8rem;     
+}
   }
  
