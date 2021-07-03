@@ -24,9 +24,8 @@ WebFont.load({google: {families: ["Fira Sans", "Padauk"]
 
 /*******************gallery********************* */	
 
-/*function adjustRating(rating) {
-    document.getElementById("ratingvalue").innerHTML = rating;
-}*/
+
+
 const imagesToLoad = document.querySelectorAll('img[data-src]');
 const loadImages = (image) => {
     image.setAttribute('src', image.getAttribute('data-src'));
@@ -72,4 +71,7 @@ if(typeof Storage!=="undefined"){
     }
 console.log("localstorage visit count now:" + localStorage.visitcount);
 
-    
+  /************************storm center************************* */  
+  function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}

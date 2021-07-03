@@ -51,6 +51,7 @@ nav button {
      background-color: #f07167;
      text-align: center;
      margin-top: -1px;
+    
      }
         
      nav ul {
@@ -84,15 +85,16 @@ nav button {
 
 /*-------------nav------*/
 body {
-  background-color:rgb(252, 249, 249) ;  
-  padding: 0;
+  background-color:rgb(255, 253, 253) ;  
   margin: 5px;
 }
 
 main {
     max-width: 1000px;
     margin: 0 auto;
+    padding-top: 0.5rem;
 }
+
 
 #friday {
     background-color:yellow;
@@ -205,12 +207,18 @@ font-weight: bolder;
     font-family: 'Fira Sans', sans-serif;
 }
 .Article p {
+    font-family: 'Fira Sans', sans-serif;   
+}
+.places {
+    font-size: 20px;
     font-family: 'Padauk', sans-serif;   
 }
 
-.continue {
-    color:blue;
+.list {
+    font-size: 14px;
+    font-family: 'Fira Sans', sans-serif;   
 }
+
 /**********end Article********/
 
 /**********contact*********/
@@ -230,6 +238,7 @@ font-weight: bolder;
     display:block;
     text-align:center;
     margin-bottom: 6px;  
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .icon {
@@ -484,10 +493,14 @@ padding: 0.5rem;
     margin: 1rem 0rem;
     text-align: left;
     background-color: #FED9B7;
-    font-family:'Padauk', sans-serif; 
 }
 .article {
-    padding: 0.5rem;
+    padding: 1rem;
+    font-family:'Fira Sans', sans-serif;
+    font-size: 15px;
+}    
+.places {
+    font-size: 12px;
 }
 .weather1 {
     margin-left: 0.5rem;
@@ -498,6 +511,10 @@ padding: 0.5rem;
     padding: 1rem;
     margin-left: -0.5rem;
     font-family:'Fira Sans', sans-serif;
+}
+
+.list {
+    font-size: 15px;
 }
 /*****************************Preston page forecast****************************************/
 .forecastone {

@@ -71,6 +71,8 @@ nav ul li a {
     .Article p {
             text-align:justify;
             text-indent: 5rem;
+            font-size: 18px;
+            
         }
 
     .forecastone{
@@ -79,6 +81,12 @@ nav ul li a {
     }    
     .day{
         display:block;
+    }
+    .places {
+        font-size: 25px;
+    }
+    .list {
+        font-size: 18px;
     }
     /*****************preston events****************/
     .notes section {
