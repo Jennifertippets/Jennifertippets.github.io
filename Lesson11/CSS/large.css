@@ -1,14 +1,7 @@
 @media only screen and (min-width: 60em){
  
-
- .pink {
-     max-width: 100%;
- } 
- .map {
-     max-width: 100%;
-     } 
      .weatherbox {
-         top: 5rem;
+         top: 7rem;
      }
 
     
@@ -19,33 +12,24 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 18px;
-    grid-row-gap: 18px;
-    justify-self: center;
-    margin:0 auto;
-    max-width: 1000px;
-   
+    grid-row-gap: 18px;  
 } 
-.gallery-title
- {
+.gallery-title {
     
     text-align: left;
     margin: 0 auto;
-    max-width: 1000px;
-
 }
 
 #visit {
     text-align: left;
     margin-left: 0.5rem;
-    max-width: 1000px;  
+      
 }
 .images {
     padding: auto;
     max-width: 100%;
 }
-img{
-    max-width: 100%;
-}
+
  
 /********************end gallery page*******************************/
 

@@ -286,28 +286,29 @@ footer {
     grid-template-columns: 1fr;
     justify-items: center;
     grid-row-gap: 40px;
-    padding-top: 2rem;
+    padding: 1rem;
     font-family: 'Fira Sans', sans-serif;
+    background-color: #a384ac;
+    margin: 0 auto;
 }
 
-.gallery-main {
-   
-    padding-bottom: 4rem; 
-    max-width: 1000px;   
-}
-
-.images:hover {box-shadow: 0 0 40px #8a6c92;
+.images:hover {box-shadow: 0 0 40px #c7bd35;
 }
 .images {
     border: solid 1px #8a6c92;
-    padding: 0 0 20px;
-    margin: auto;
-    max-width: 90%;
-   
     
+    margin: auto;
+    max-width: 100%;
+}
+
+figcaption {
+    background-color: #eee;
+    padding: 1rem;
+    margin-top: -0.5rem;
 }
 img[data-src] {
     filter: blur(0.2em);
+
     }
     
 img {
