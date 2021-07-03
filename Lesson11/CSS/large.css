@@ -61,14 +61,12 @@
     display: grid;
     grid-template-columns: 1fr;
     margin: 0.5rem 1rem 0.5rem 1rem;
-
 }
 
 .cards section img {
 margin-top: 2rem;
 align-content: center;
 }
-
 
 .cards section:nth-child(even) img {
     grid-column: 2;
