@@ -1,3 +1,9 @@
+ /*****banner***** */
+ const daynames = new Date();
+ if(daynames.getDay() == 5){
+     document.querySelector('#friday').style.display = 'block'; }  
+     
+     
 const datefield = document.querySelector("#date");
 const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
@@ -65,3 +71,5 @@ if(typeof Storage!=="undefined"){
     }
     }
 console.log("localstorage visit count now:" + localStorage.visitcount);
+
+    
