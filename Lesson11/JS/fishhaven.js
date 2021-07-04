@@ -71,7 +71,7 @@ fetch(forecastURL)
        let event3 = document.createElement('p');
        let event4 = document.createElement('p');
 
-       /*event1.innerHTML = `${prestons[i].events[0]}`;*/
+       event1.innerHTML = `${prestons[i].events[0]}`;
        event2.innerHTML = `${prestons[i].events[1]}`;
        event3.innerHTML = `${prestons[i].events[2]}`;
        event4.innerHTML = `${prestons[i].events[3]}`;
