@@ -69,16 +69,20 @@ fetch(forecastURL)
        let event1 = document.createElement('p');
        let event2 = document.createElement('p');
        let event3 = document.createElement('p');
-      
-       event1.innerHTML = `${prestons[i].events[0]}`;
+       let event4 = document.createElement('p');
+
+       /*event1.innerHTML = `${prestons[i].events[0]}`;*/
        event2.innerHTML = `${prestons[i].events[1]}`;
        event3.innerHTML = `${prestons[i].events[2]}`;
-      
+       event4.innerHTML = `${prestons[i].events[3]}`;
+
+
        card.appendChild(event1);
        card.appendChild(event2);
        card.appendChild(event3);
+       card.appendChild(event4);
 
-          document.querySelector('div.notes').appendChild(card);
+          document.querySelector('div.notes-two').appendChild(card);
        }
      
    });

@@ -261,7 +261,24 @@ form label.first input {
    .cards section p {
        grid-column: 1;
    }
-     
+     /*****************soda springs events****************/
+     .notes-one section {
+        padding: 1rem;
+        margin: 0rem 4rem;     
+    }
+    section p {
+        font-size: 20px;
+        
+    } 
+/*****************fish haven events****************/
+.notes-two section {
+    padding: 1rem;
+    margin: 0rem 4rem;     
+}
+section p {
+    font-size: 20px;
+    
+} 
 
 
     }
