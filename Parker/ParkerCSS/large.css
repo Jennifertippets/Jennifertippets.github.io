@@ -1,0 +1,26 @@
+@media only screen and (min-width: 60em){
+    .logo {
+        float:left;
+        margin-top:-1.8rem;
+        margin-left: 0.5rem;
+        max-width:14%;
+        padding-top: -1rem;
+    }
+    nav ul li a {
+        font-size: 25px;
+        margin-right:1.5rem;
+    
+     }
+     nav li {
+        display:inline-block;
+        
+    } 
+    section nav{
+    
+        float: right;
+        margin-top: -1.5rem;
+    }
+    header{
+        padding: 3.5rem 1rem;
+    }      
+}

@@ -1,0 +1,32 @@
+@media only screen and (min-width: 37.5em){
+
+nav button{
+    display: none;
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    display:inline-block;
+}
+nav ul li {
+    flex: 1 1 100%;
+} 
+
+nav ul.hide {
+    display: block;
+}
+
+nav ul li a {
+   font-size: 20px;
+   margin-left: 1rem;
+}
+.logo{
+    max-width: 20%;
+}
+section nav{
+
+    float:right;
+    margin-top: -1.5rem;
+}
+}
