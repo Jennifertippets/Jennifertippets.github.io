@@ -12,3 +12,11 @@ function toggleMenu() {
 /****************************WebFont********************************/
 WebFont.load({google: {families: ["Bona Nova", "Cabin"]
     }});
+
+/*************************weather box***************************** */
+
+(function($) {
+	$('.alert .close ').click(function() {
+	  $(this).parent().fadeOut();
+	});
+  })(jQuery);

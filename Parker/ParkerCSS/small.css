@@ -8,14 +8,14 @@ body {
 header {
 
     background-color: #F2CC8F;
-    padding: 2.7rem 2rem;
+    padding: 2.8rem 2rem 1.5rem;
     margin:0 auto;
 }
 .logo {
 float:left;
-margin-top:-1.8rem;
+margin-top:-2.3rem;
 margin-left: -1.7rem;
-max-width:30%;
+max-width:35%;
 padding-top: -1rem;
 
 
@@ -29,7 +29,8 @@ nav button {
     border:none; 
     font-size: 1.6rem;
     float:right;
-    margin-top: -1.5rem
+    margin-top: -2rem;
+    padding-top: -2rem;
 
  }
 
@@ -54,21 +55,139 @@ nav button {
         display: none;
     }
     
+/**************end header**************/
 
-
-
+/******************home page-main**********************/
 
 main {
     background-color: #F4F1DE;
-    margin: 0 auto;
-    padding: 1rem;
+    padding-bottom: 1rem;
+        
+}
+.pink {
+    margin: -1rem 0rem;
+    max-width: 100%;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'cabin', sans-serif;
 }
 
 
+.mission {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Bona Nova', serif;
+}
+
+/**************sections*****************/
+.business,
+.join,
+.events
+{
+
+display: block;
+   border: solid 2px black;
+   margin: 2rem 0.5rem;
+   padding: 4rem;
+   text-align: center;
+}
+
+.join {
+    background-color:#E07A5F;
+    
+    font-family:'cabin', sans-serif;
+    font-weight:700;
+    font-size: 35px;
+}
+#join{
+  color:white;  
+}
+.events {
+    background-color: #3D405B;
+    color:white;
+    font-family:'cabin', sans-serif;
+    font-weight:700;
+    font-size: 35px;
+    
+    
+}
+#events {
+    color:white;
+}
+.contact {
+    display:grid;
+    grid-template-columns: 1fr;
+    margin: 2rem 0.5rem;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #81b29a;
+    border: solid 2px white;
+}
+
+.address {
+    display:block;
+    text-align: center;
+    font-family:'Bona Nova', serif;
+    font-size: 14px;
+    color: white;
+   }
+
+.icons {
+    display: none;
+}
+.cont {
+    font-size: 25px;
+}
+.chamber {
+    font-size:20px;
+    font-weight:400;
+}
+.map-one {
+    overflow: hidden;
+    padding-bottom: 4%;
+    position: relative;
+    
+}
+.list{
+    display: none;
+}
+/*********************Weather box section
+******************/
+.weather {
+    position:absolute;
+    top: 0.5rem;
+    left: 10px;
+    background: radial-gradient(#eee, #8a6c92);
+    border: 1px solid;
+    padding: 0.5rem;
+    font-size: 20px;
+    opacity: 0.8;
+  
+}
+.closebtn {
+    position: absolute;
+    border: 0;
+    top: 2px;
+    right: 2px;
+    background: none;
+    color:inherit;
+    color:#000;
+    font-size:14px;
+    font-weight:bold;
+    cursor:pointer;
+    width:20px;
+    height:20px;
+
+    }
+
 
 footer {
-    background-color: #81B29A;
+    background-color: #F2CC8F;
     text-align: center;
-    margin: 0 auto;
-    padding: 1rem;
+    margin-bottom:1rem;
+
+    padding: 0.5rem;
 }

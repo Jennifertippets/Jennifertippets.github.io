@@ -22,11 +22,46 @@ nav ul li a {
    margin-left: 1rem;
 }
 .logo{
-    max-width: 20%;
+    max-width: 18%;
 }
 section nav{
 
     float:right;
     margin-top: -1.5rem;
+}
+header {
+    padding-bottom: 2.5rem;
+}
+/*****************home main page*******************/
+.welcome {
+    font-size: 40px;
+}
+.mission {
+    font-size: 20px;
+}
+#same{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0.5rem;  
+    text-align: center; 
+}
+
+
+.contact {
+    display:grid;
+    grid-template-columns: 1fr 1fr;  
+}
+.map-one {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.list {
+    display:block;
+    font-size: 15px;
+    
+    font-weight: normal;
+}
+.events {
+    padding: 0.5rem;
 }
 }

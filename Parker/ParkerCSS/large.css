@@ -8,7 +8,7 @@
     }
     nav ul li a {
         font-size: 25px;
-        margin-right:1.5rem;
+        margin-right: 1.5rem;
     
      }
      nav li {
@@ -22,5 +22,14 @@
     }
     header{
         padding: 3.5rem 1rem;
-    }      
+    } 
+    /*****************Home page main************************/  
+    .welcome {
+font-size: 50px;
+    }
+    .mission {
+        font-size: 25px;
+    }
+
+
 }

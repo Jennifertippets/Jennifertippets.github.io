@@ -1,51 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="It is the Parker Home page by Jennifer Tippets. You will find general information about the city and local business. Class: Web Frontend Development at Brigham Young University - Idaho.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="It is the Parker Home page by Jennifer Tippets. You will find general information about the city and local business. Class: Web Frontend Development at Brigham Young University - Idaho."
+    />
     <title>Home</title>
-    <link rel="shortcut icon" href="./images/parker-iconone.png">
+    <link rel="shortcut icon" href="./images/parker-iconone.png" />
 
-    <link rel="stylesheet" href="ParkerCSS/normalize.css"/>
-    <link rel="stylesheet" href="ParkerCSS/small.css"/>
-    <link rel="stylesheet" href="ParkerCSS/medium.css"/>
-    <link rel="stylesheet" href="ParkerCSS/large.css"/>
+    <link rel="stylesheet" href="ParkerCSS/normalize.css" />
+    <link rel="stylesheet" href="ParkerCSS/small.css" />
+    <link rel="stylesheet" href="ParkerCSS/medium.css" />
+    <link rel="stylesheet" href="ParkerCSS/large.css" />
+  </head>
 
-
-</head>
-
-<body>
-
- <header>
-     
-        <picture>
-            <img class="logo" src="./images/logo3large.png" alt="autumn leaf logo with title"/>
-        </picture>
-        <section>
-         <nav>
-            <button onclick="toggleMenu()">&#9776;</button>
-            <ul id="menu" class="hide">
-                <li class="active" id="home"><a href="./index.html">Home</a></li> 
-                <li ><a href="./City.html">Parker</a></li>
-                <li><a href="./Directory.html">Directory</a></li>  
-                <li><a href="./Join.html">Join</a></li>
-                <li><a href="./Contact.html">Contact</a></li>
-            </ul>
-         </nav>
-        </section>
+  <body>
+    <header>
+      <picture>
+        <img
+          class="logo"
+          src="./images/logo3large.png"
+          alt="autumn leaf logo with title"
+        />
+      </picture>
+      <section>
+        <nav>
+          <button onclick="toggleMenu()">&#9776;</button>
+          <ul id="menu" class="hide">
+            <li class="active" id="home"><a href="./index.html">Home</a></li>
+            <li><a href="./City.html">Parker</a></li>
+            <li><a href="./Directory.html">Directory</a></li>
+            <li><a href="./Join.html">Join</a></li>
+            <li><a href="./Contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </section>
     </header>
     <main>
-<h1>Hello!</h1>
+      <div class="hero-one">
+        <picture>
+          <source media="(max-width: 500px)" srcset="./images/hero-small.jpg" />
+          <source
+            media="(max-width: 800px)"
+            srcset="./images/hero-medium.jpg"
+          />
+          <img
+            class="pink"
+            src="./images/hero-large.jpg"
+            alt="O'brien park, park with flowers"
+          />
+        </picture>
 
+       
 
+        <div class="weather">
+         <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+          <h3>Parker's Weather</h3>
 
+          <p>Currently: <span id="currently"></span></p>
+
+          <p>Temperature: <span id="temp"></span>&deg;F</p>
+
+          <p>Humidity: <span id="humidity"></span>%</p>
+        </div>
+
+      </div>
+
+      <div class="forecast">
+        <div class="fore">
+          <span id="dayofweek1"></span>
+          <img id="image1" src="..." alt="..." />
+          <p class="degree"><span id="forecast1"></span>&deg;F</p>
+        </div>
+
+        <div class="fore">
+          <span id="dayofweek2"></span>
+          <img id="image2" src="..." alt="..." />
+          <p class="degree"><span id="forecast2"></span>&deg;F</p>
+        </div>
+        <div class="fore">
+          <span id="dayofweek3"></span>
+          <img id="image3" src="..." alt="..." />
+          <p class="degree"><span id="forecast3"></span>&deg;F</p>
+        </div>
+      </div>
+
+      <h1 class="welcome">Welcome to Parker!</h1>
+      <p class="mission">
+        Our mission is to help you to succeed in your business.<br />
+        We will support, encourage and promote member businesses in our
+        community.<br />
+        Parker Chamber of commerce has been for 20 years in the market,
+        <br />offering benefits and opportunities for local businesses to
+        prosper.<br />
+        Also, We provide variable information about Parker's city,<br />
+        such as demographic information, events, entertainment,<br />
+        local business information, and much more…
+      </p>
+
+      <section>
+        <div class="business">Business</div>
+      </section>
+
+      <div id="same">
+        <section>
+          <div class="join"><a href="Join.html" id="join">Join us !</a></div>
+        </section>
+
+        <section>
+          <div class="events">
+            <a href="City.html" id="events">Events</a>
+            <div class="list">
+              <p>8/16/21 -Maximize You membership</p>
+              <p>8/21/21 -Movies in the Park-Moana</p>
+              <p>8/27/21 -Wine Walk 2021</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="contact">
+        <section class="address">
+          <h3 class="cont">Contact us!</h3>
+          <p class="chamber">Parker Chamber of Commerce</p>
+          <p>19751 E Mainstreet- Suit R10</p>
+          <p>Parker, CO 80138</p>
+          <p>(303) 555-3322</p>
+          <p>ParkerChambers@gmail.com</p>
+          <br />
+          <a href="https://www.facebook.com/" target="_blank">
+            <img class="icons" alt="facebook" src="./images/facebook.png"
+          /></a>
+          <a href="https://twitter.com/" target="_blank">
+            <img class="icons" alt="Twitter" src="./images/twitter.png"
+          /></a>
+        </section>
+        <div class="map-one">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3077.823294445341!2d-104.76262328531377!3d39.51847771770096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c91fba6610291%3A0xbed73126eedd205a!2s19751%20Mainstreet%2C%20Parker%2C%20CO%2080138!5e0!3m2!1sen!2sus!4v1625729991657!5m2!1sen!2sus"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
     </main>
     <footer>
-     &copy; <span id="year"></span> | Parker Chamber of Commerce | <a href="Attribution.html" target="_blank">Attributions</a> | Jennifer Tippets <br> <p>Last Modified: <span id="last"></span></p>
+      &copy; <span id="year"></span> | Parker Chamber of Commerce |
+      <a href="Attribution.html" target="_blank">Attributions</a> | Jennifer
+      Tippets <br />
+      <p>Last Modified: <span id="last"></span></p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="ParkerJS/first.js"></script>
-</body>
+  
+  </body>
 </html>
