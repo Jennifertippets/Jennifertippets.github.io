@@ -242,19 +242,27 @@ display: block;
 /*******************************Contact page******************************/
 .map-two {
     overflow: hidden;
-    padding-bottom: 2%;
+    padding-bottom: 50%;
     position: relative;
     display:none;
+    height: 0;
     
 }
-.contact-one {
+.map-two iframe {
+    left:0;
+    top:0;
+    height:100%;
+    position:absolute;
+    margin:auto
+}
+.cont {
     display:grid;
     grid-template-columns: 1fr;
     
-     
-     
 }
 .form2 {
+
+    
   display:block; 
  
 

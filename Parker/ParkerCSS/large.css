@@ -39,9 +39,12 @@ font-size: 25px;
 }
 /********************************************/
 .forecast{
-    
-    
     width: 70%;
 }    
-
+/********************contact page********************/
+.map-two {
+margin:1rem 1.5rem 3rem 12rem;
+max-width: 100%;
+    
+}
 }
