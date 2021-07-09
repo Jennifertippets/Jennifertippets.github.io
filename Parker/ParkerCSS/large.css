@@ -32,12 +32,16 @@ font-size: 50px;
     }
 /***************weather box*****************/
 .weather {
-display:absolute;
- top: 15rem; 
- right:8rem;  
+ top: 1rem; 
+ right:1rem;  
 font-size: 25px;
 
 }
-
+/********************************************/
+.forecast{
+    
+    
+    width: 70%;
+}    
 
 }

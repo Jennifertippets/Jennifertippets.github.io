@@ -47,7 +47,7 @@ header {
 }
 /***************weather box*********************/
 .weather{
-    top:8rem;
+    top:1rem;
     font-size: 18px;
 }
 .contact {
@@ -67,4 +67,33 @@ header {
 .events {
     padding: 0.5rem;
 }
+/********************Forecast*************************/
+
+.forecast{
+    display:flex;
+    
+    width: 80%;
+}    
+.week{
+    display:block;
+    margin: 1rem;
+    font-size: 25px;
+    text-align: center;
+}
+/***********************Thankyou page******************************/
+.thanks {
+    font-size: 20px;
+}
+.you {
+    font-size: 40px;
+}
+/************************************************/
+.mapi{
+    display: block;
+    text-align: center;
+}
+.map-two {
+    display: block;
+}
+
 }

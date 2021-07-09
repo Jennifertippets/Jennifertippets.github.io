@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="It is the Thank you! page by Jennifer Tippets. You will see a confirmation message. Class: Web Frontend Development at Brigham Young University - Idaho."
+      content="It is the Parker page by Jennifer Tippets. You will find general information about the city such us events, history, and demographic information. Class: Web Frontend Development at Brigham Young University - Idaho."
     />
-    <title>Thank you</title>
+    <title>Parker</title>
     <link rel="shortcut icon" href="./images/parker-iconone.png" />
 
     <link rel="stylesheet" href="ParkerCSS/normalize.css" />
@@ -31,38 +31,26 @@
           <button onclick="toggleMenu()">&#9776;</button>
           <ul id="menu" class="hide">
             <li><a href="./index.html">Home</a></li>
-            <li><a href="./parker.html">Parker</a></li>
+            <li class="active"><a href="./parker.html">Parker</a></li>
             <li><a href="./Directory.html">Directory</a></li>
-            <li class="active"><a href="./Join.html">Join</a></li>
+            <li><a href="./Join.html">Join</a></li>
             <li><a href="./Contact.html">Contact</a></li>
           </ul>
         </nav>
       </section>
     </header>
     <main>
+
       <div class="hero-one">
         <picture>
-          <source media="(max-width: 500px)" srcset="./images/hero-small.jpg" />
-          <source
-            media="(max-width: 800px)"
-            srcset="./images/hero-medium.jpg"
-          />
-          <img
-            class="pink"
-            src="./images/hero-large.jpg"
-            alt="O'brien park, park with flowers"
-          />
+          <source media="(max-width: 500px)" srcset="./images/parker-hero-small.jpg" />
+          <source media="(max-width: 800px)" srcset="./images/parker-hero-medium.jpg"/>
+          <img class="pink" src="./images/parker-hero-large.jpg" alt="O'brien park, in Parker-Colorado"/>
         </picture>
-      </div>
-      <section class="thanks">
-        <h2 class="you">Thank You!</h2>
-        <p>
-          Your application was submitted.<br />
-          We will contact you soon!. <br />If you have some questions, please
-          call us or send us an email.<br />
-          Welcome to our Parker chamber family.
-        </p>
-      </section>
+
+       
+
+       
     </main>
     <footer>
       &copy; <span id="year"></span> | Parker Chamber of Commerce |
@@ -72,5 +60,6 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="ParkerJS/first.js"></script>
+  
   </body>
 </html>

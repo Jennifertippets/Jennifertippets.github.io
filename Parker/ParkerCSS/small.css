@@ -44,7 +44,7 @@ nav button {
 
  nav ul li a {
      display:block;
-     color:rgb(20, 18, 16);
+     color:#3D405B;
      text-align: right;
      padding: 0.75rem;
      text-decoration:none;
@@ -54,7 +54,16 @@ nav button {
      nav ul.hide {
         display: none;
     }
-    
+    nav ul li.active a {
+        text-decoration:underline;
+        color:rgb(63, 146, 60);   
+       }
+   nav a:hover {
+       
+       background-color:#f4f1de;
+       border-radius: 30%;
+       
+   }
 /**************end header**************/
 
 /******************home page-main**********************/
@@ -156,9 +165,13 @@ display: block;
 }
 /*********************Weather box section
 ******************/
+.hero-one {
+    margin: 10px auto;
+    position: relative;
+}
 .weather {
     position:absolute;
-    top: 4.5rem;
+    top: -0.5rem;
     right: 10px;
     background: radial-gradient(rgb(248, 242, 242), #F4F1DE);
     color:rgb(12, 12, 12);
@@ -176,7 +189,6 @@ display: block;
     top: -6px;
     right:-15px;
     background: none;
-    color:inherit;
     color:#000;
     font-size:25px;
     font-weight: 700px;
@@ -185,8 +197,113 @@ display: block;
     height:30px;
 
     }
+/**********************Forecast*****************************/
+.forecast {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+       margin: 10px auto;
+       display:none;   
+   }
+   .fore {
+       flex: 1 1 auto;
+       background-color:#a4d6e6 ;
+       border:solid 2px black;
+       text-align: center;
+   }
+   #dayofweek1,
+   #dayofweek2,
+   #dayofweek3 {
+       display: block;
+       padding: 8px;
+       border-bottom: 1px solid #a4d6e6;
+       text-align: center;
+       font-weight: 700;
+       font-size: 1rem;
+       background-color:#fefffe;
+       color: white;   
+   }
+   .degree {
+       margin-top:-0.5rem;
+   }   
+.week {
+    display:none;
+}
+/***********************thank you page************************/
+.thanks {
+    text-align:center;
+    font-family: 'Bona Nova', serif;
+    font-size: 14px;
+} 
+.you {
+    font-family:'cabin', sans-serif;
+    font-size: 30px;
+}
+/*******************************Contact page******************************/
+.map-two {
+    overflow: hidden;
+    padding-bottom: 2%;
+    position: relative;
+    display:none;
+    
+}
+.contact-one {
+    display:grid;
+    grid-template-columns: 1fr;
+    
+     
+     
+}
+.form2 {
+  display:block; 
+ 
 
+}
+.required{
+  color:red;
+  font-size: 20px;  
+} 
+.message{
+    margin:1rem;
+} 
+.ratio{
+    margin: -1rem;
+    padding-bottom: 1rem;
+}
+.info, .third {
+    display:block;
+    padding-top: 1rem;
+    color:#3D405B;
+    margin: 1rem;
 
+}
+.info input, textarea {
+    display:block;
+    font-size: 1rem;
+    border: solid 1px #E07A5F;
+    padding: 2px;
+    width: 100%;
+    max-width: 100%;
+}
+.button {
+    border: none;
+  background-color: #3D405B; 
+  color:#eee;
+  font-size: 25px; 
+  margin:0 auto;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 50%;
+  width:100%
+}
+.mapi {
+    display:none;
+}
+.direct-list{
+    display: block;
+    text-align: center;
+}
+/***********************end contact************************/
 footer {
     background-color: #F2CC8F;
     text-align: center;

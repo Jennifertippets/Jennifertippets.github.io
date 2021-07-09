@@ -30,8 +30,8 @@
         <nav>
           <button onclick="toggleMenu()">&#9776;</button>
           <ul id="menu" class="hide">
-            <li class="active" id="home"><a href="./index.html">Home</a></li>
-            <li><a href="./City.html">Parker</a></li>
+            <li class="active"><a href="./index.html">Home</a></li>
+            <li><a href="./parker.html">Parker</a></li>
             <li><a href="./Directory.html">Directory</a></li>
             <li><a href="./Join.html">Join</a></li>
             <li><a href="./Contact.html">Contact</a></li>
@@ -40,18 +40,12 @@
       </section>
     </header>
     <main>
+
       <div class="hero-one">
         <picture>
           <source media="(max-width: 500px)" srcset="./images/hero-small.jpg" />
-          <source
-            media="(max-width: 800px)"
-            srcset="./images/hero-medium.jpg"
-          />
-          <img
-            class="pink"
-            src="./images/hero-large.jpg"
-            alt="O'brien park, park with flowers"
-          />
+          <source media="(max-width: 800px)" srcset="./images/hero-medium.jpg"/>
+          <img class="pink" src="./images/hero-large.jpg" alt="O'brien park, park with flowers"/>
         </picture>
 
        
@@ -68,25 +62,7 @@
         </div>
 
       </div>
-
-      <div class="forecast">
-        <div class="fore">
-          <span id="dayofweek1"></span>
-          <img id="image1" src="..." alt="..." />
-          <p class="degree"><span id="forecast1"></span>&deg;F</p>
-        </div>
-
-        <div class="fore">
-          <span id="dayofweek2"></span>
-          <img id="image2" src="..." alt="..." />
-          <p class="degree"><span id="forecast2"></span>&deg;F</p>
-        </div>
-        <div class="fore">
-          <span id="dayofweek3"></span>
-          <img id="image3" src="..." alt="..." />
-          <p class="degree"><span id="forecast3"></span>&deg;F</p>
-        </div>
-      </div>
+     
 
       <h1 class="welcome">Welcome to Parker!</h1>
       <p class="mission">
@@ -121,7 +97,26 @@
           </div>
         </section>
       </div>
+      <h3 class="week">Parker's Forecast</h3>
+      <div class="forecast">
+        
+        <div class="fore">
+        <span id="dayofweek1"></span>
+        <img id="image1" src="..." alt="..." />
+        <p class="degree"><span id="forecast1"></span>&deg;F</p>
+       </div>
 
+      <div class="fore">
+        <span id="dayofweek2"></span>
+        <img id="image2" src="..." alt="..." />
+        <p class="degree"><span id="forecast2"></span>&deg;F</p>
+      </div>
+      <div class="fore">
+        <span id="dayofweek3"></span>
+        <img id="image3" src="..." alt="..." />
+        <p class="degree"><span id="forecast3"></span>&deg;F</p>
+      </div>
+    </div>
       <div class="contact">
         <section class="address">
           <h3 class="cont">Contact us!</h3>
