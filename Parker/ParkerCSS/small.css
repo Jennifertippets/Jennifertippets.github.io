@@ -240,50 +240,64 @@ display: block;
     font-size: 30px;
 }
 /*******************************Contact page******************************/
-.map-two {
-    overflow: hidden;
-    padding-bottom: 50%;
-    position: relative;
-    display:none;
-    height: 0;
+
+
+/*******contact us section***********/
+.map-one iframe {
+display:block;
+width:100vw;
+height: calc(.75 * 100vw);
+max-width: 400px;
+    max-height: 300px; 
+    margin: 1em auto;
+}
     
-}
-.map-two iframe {
-    left:0;
-    top:0;
-    height:100%;
-    position:absolute;
-    margin:auto
-}
-.cont {
+.contact {
     display:grid;
     grid-template-columns: 1fr;
     
-}
-.form2 {
+}    
 
+.map-two iframe {
+    display:none;
     
-  display:block; 
- 
+}
+/****************contact form******************/
+.contact-one {
+    display:grid;
+grid-template-columns: 1fr;
+}
 
+.form2 {
+  display:block;
+  padding: 0rem 1rem; 
 }
 .required{
   color:red;
-  font-size: 20px;  
-} 
+  font-size: 15px;  
+}
+ .requi {
+     font-size: 14px;
+     margin-left: 1rem;
+ }
 .message{
     margin:1rem;
 } 
+.conti {
+    font-size: 25px;
+    margin-left: 1rem;
+
+}
 .ratio{
     margin: -1rem;
     padding-bottom: 1rem;
 }
-.info, .third {
+.info {
     display:block;
     padding-top: 1rem;
     color:#3D405B;
     margin: 1rem;
-
+font-size: 15px;
 }
 .info input, textarea {
     display:block;
@@ -307,9 +321,25 @@ display: block;
 .mapi {
     display:none;
 }
+.monday {
+  font-size: 15px;  
+}
+.care {
+    font-size: 15px;
+}
+/*******list of directors*********/
 .direct-list{
     display: block;
     text-align: center;
+}
+.chair {
+    font-size: 18px;
+}
+#commit {
+    font-size: 13px;
+}
+.direct {
+    font-size: 18px;
 }
 /***********************end contact************************/
 footer {

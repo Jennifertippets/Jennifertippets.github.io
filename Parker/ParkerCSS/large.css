@@ -42,9 +42,14 @@ font-size: 25px;
     width: 70%;
 }    
 /********************contact page********************/
-.map-two {
-margin:1rem 1.5rem 3rem 12rem;
-max-width: 100%;
-    
+.map-two iframe {
+    display:block;
+    width: 100vw;
+    height: calc(.75 * 100vw);
+    max-width: 800px;
+    max-height: 600px; 
+    margin: 1em auto;
 }
+    
+
 }
