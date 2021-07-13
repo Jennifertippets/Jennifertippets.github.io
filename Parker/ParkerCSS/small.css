@@ -413,3 +413,13 @@ footer {
     font-size: 15px;
     font-family:'Bona Nova', serif; 
 }
+/************Events***************/
+.around{
+    border: solid 2px #E07A5F;
+    padding:1rem;
+    margin:1rem
+}
+ul li{
+    align-content: left;
+    list-style: none;
+}
