@@ -50,6 +50,21 @@ font-size: 25px;
     max-height: 600px; 
     margin: 1em auto;
 }
-    
-
+/****************parker page******************/ 
+.according {
+    font-size: 20px;
+} 
+.by {
+    font-size: 18px;
+}  
+.demo-paragraph {
+    font-size: 20px;
+}
+/*******demographics*********/
+.subheader{
+    font-size: 30px;
+}
+.answer {
+    font-size: 25px;
+}
 }

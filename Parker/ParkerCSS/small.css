@@ -349,3 +349,67 @@ footer {
 
     padding: 0.5rem;
 }
+/****************Parker Page*******************/
+/********history section**********/
+.old-parker img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+.brief {
+    margin: 2rem 1rem;
+    font-size: 30px;
+    font-family:'Cabin', sans-serif; 
+}
+.by {
+    margin: -2rem 1rem 3rem;
+    font-size: 15px;
+    font-family: 'Bona Nova', serif;
+}
+.according {
+  text-align: left; 
+  margin: 1rem; 
+  font-family:'Bona Nova', serif; 
+  font-size: 15px;
+}
+/******************demographics***************/
+.demo {
+    border:#3D405B solid 2px;
+    background-color: #81b29a;
+    margin:1rem;
+}
+
+.subheader {
+    border-bottom:solid 2px black;
+    margin: 0rem;
+    padding: 1rem;
+    font-weight: bold;
+    text-align: center;
+    display:grid;
+    grid-template-columns: 1fr;
+    font-size: 20px;
+    font-family:'Bona Nova', serif ;
+}
+.answer {
+    font-family:'Cabin', sans-serif;
+    font-size: 16px;
+} 
+.subheader {
+    cursor:pointer;
+}
+.demo .subheader:hover {
+    background-color:#3D405B;
+    color:#eee;
+    
+}
+.demo-title {
+    text-align: center;
+    font-size: 30px;
+    font-family:'Cabin', sans-serif; 
+}
+.demo-paragraph {
+    text-align: center;
+    margin: 1rem;
+    font-size: 15px;
+    font-family:'Bona Nova', serif; 
+}
