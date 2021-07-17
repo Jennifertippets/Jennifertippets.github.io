@@ -33,6 +33,13 @@ header {
     padding-bottom: 2.5rem;
 }
 /*****************home main page*******************/
+.alert{
+    font-size: 30px;
+}
+.closetab{
+    font-size: 40px;
+    margin: 0rem 20rem;
+}
 .welcome {
     font-size: 40px;
 }
@@ -94,17 +101,7 @@ header {
     margin-top: 3rem;
 }
 
-.map-one iframe {
-    display: block;
-    width: 100vw;
-    height: calc(.75 * 100vw);
-    max-width: 400px;
-    max-height: 350px; 
-    margin: 3em auto;
 
-    
-    
-}
 .map-two iframe {
     display:block;
     width: 100vw;
@@ -123,6 +120,7 @@ header {
 .icons {
 display:inline-block;
 padding: 0.5rem;
+margin-top: -1.5rem;
 }
     
 

@@ -23,7 +23,15 @@
     header{
         padding: 3.5rem 1rem;
     } 
-    /*****************Home page main************************/  
+    /*****************Home page main************************/ 
+    .alert{
+        font-size: 40px;
+    }
+    .closetab{
+        font-size: 50px;
+        margin: 0rem 29rem;
+    
+    } 
     .welcome {
 font-size: 50px;
     }
@@ -55,6 +63,7 @@ font-size: 25px;
 }
 .address{
     font-size: 20px;
+    margin: ;
 }
 /****************parker page******************/ 
 .according {

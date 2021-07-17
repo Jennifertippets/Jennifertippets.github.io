@@ -15,12 +15,16 @@
     <link rel="stylesheet" href="ParkerCSS/small.css" />
     <link rel="stylesheet" href="ParkerCSS/medium.css" />
     <link rel="stylesheet" href="ParkerCSS/large.css" />
-    <script src="https://cdnres.willyweather.com/widget/warning/loadView.html?id=137480" type="application/javascript"></script>
+   
+    <script defer src="./ParkerJS/weather.js"></script>
   </head>
 
   <body>
     
+
+   </div> 
     <header>
+      
       <picture>
         <img
           class="logo"
@@ -28,8 +32,9 @@
           alt="autumn leaf logo with title"
         />
       </picture>
-      <section>
-        <nav>
+      <section class="navigation-one">
+       
+     <nav>
           <button onclick="toggleMenu()">&#9776;</button>
           <ul id="menu" class="hide">
             <li class="active"><a href="./index.html">Home</a></li>
@@ -39,6 +44,7 @@
             <li><a href="./Contact.html">Contact</a></li>
           </ul>
         </nav>
+       
       </section>
     </header>
     <main>
@@ -50,7 +56,7 @@
           <img class="pink" src="./images/hero-large.jpg" alt="O'brien park, park with flowers"/>
         </picture>
 
-       
+      
 
         <div class="weather">
          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
@@ -62,10 +68,13 @@
 
           <p>Humidity: <span id="humidity"></span>%</p>
         </div>
-
+        
       </div>
      
-
+      <div class="alert">
+        <span class="closetab" onclick="this.parentElement.style.display='none';">&times;</span>
+          <p><span id="alert"></span></p>
+    </div>
       <h1 class="welcome">Welcome to Parker!</h1>
       <p class="mission">
         Our mission is to help you to succeed in your business.<br />

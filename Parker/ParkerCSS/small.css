@@ -169,6 +169,37 @@ display: block;
     margin: 10px auto;
     position: relative;
 }
+
+/*.navigation-one{
+    position:relative;
+}*/
+
+.alert {
+    position:relative;
+    margin: 0.3rem auto;
+    padding: -1rem;
+    background-color: red;
+    text-align: center;
+    color:rgb(12, 12, 12);
+    border: 2px solid red;
+
+    font-size: 18px;
+    font-weight:700;
+}
+
+.closetab {
+    position:absolute;
+    border: 0;
+    margin:0rem 7.5rem;
+    
+    background: none;
+    color:#000;
+    font-size:30px;
+    font-weight: 700px;
+    cursor:pointer;
+    width:30px;
+    height:30px;   
+}
 .weather {
     position:absolute;
     top: -0.5rem;
@@ -257,7 +288,14 @@ max-width: 400px;
     grid-template-columns: 1fr;
     
 }    
-
+.map-one iframe {
+    display: block;
+    width: 100vw;
+    height: calc(.75 * 100vw);
+    max-width: 400px;
+    max-height: 350px; 
+    margin: 3em auto;   
+}
 .map-two iframe {
     display:none;
     
