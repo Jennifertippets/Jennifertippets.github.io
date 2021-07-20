@@ -38,6 +38,13 @@ font-size: 50px;
     .mission {
         font-size: 25px;
     }
+    .companies {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+       
+    }
+    
 /***************weather box*****************/
 .weather {
  top: 1rem; 

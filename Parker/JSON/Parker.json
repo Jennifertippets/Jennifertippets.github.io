@@ -1,0 +1,95 @@
+{
+    "Businesses": [
+        {
+            "name": "Havana Bakery and Cafe",
+            "photo": "havana.jpg",
+            "address": "19757 Pikes Peak Ave, Parker, CO 80138",
+            "phone": "(303)993-4021",
+            "hours": [
+                "Tue - Sun: 9:00am - 6:00pm",
+                "Mon: closed"
+            ]
+        },
+        {
+            "name": "Cinderella Ranch Boutique",
+            "photo": "cinderella.jpg",
+            "address": "10970 S.Parker Rd, Parker, CO 80134",
+            "phone": "(303)840-2303",
+            "hours": [
+                "Mon - Sat: 10:00am - 5:00pm",
+                "Sun: Closed"
+            ]
+        },
+        {
+            "name": "Parker Garage",
+            "photo": "parker-garage.jpg",
+            "address": "19757 Pikes Peak Ave, Parker, CO 80138",
+            "phone": "(303)993-4021",
+            "hours": [
+                "Mon - Wed: 11:00am - 9:00pm",
+                "Fri - Sun: 11:00am - 10:00pm"
+            ]
+        },
+        {
+            "name": "Kilwins Chocolate and Ice Cream",
+            "photo": "kilwins.jpg",
+            "address": "19501 E Mainstreet Ste 104 Parker, CO 80138",
+            "phone": "(720)638-0941",
+            "hours": [
+                "Mon - Sat: 11:00am - 9:00pm",
+                "Sun: 9:00am - 9:00pm"
+            ]
+        },
+        {
+            "name": "Parker Panache Boutique",
+            "photo": "panache.jpg",
+            "address": "19561 Mainstreet, Parker, CO 80138",
+            "phone": "(720)851-5121",
+            "hours": [
+                "Tue - Sat: 11:00am - 4:00pm",
+                "Sun - Mon: Closed"
+            ]
+        },
+        {
+            "name": "The Local Parker",
+            "photo": "local.jpg",
+            "address": "19565 Mainstreet, Parker, CO 80138",
+            "phone": "(720)583-0966",
+            "hours": [
+                "Mon - Sat: 10:00am - 6:00pm",
+                "Sun: 10am - 5pm"
+            ]
+        },
+        {
+            "name": "Sky Zone trampoline Park",
+            "photo": "sky.jpg",
+            "address": "9851 S Parker Rd, Parker, CO 80134",
+            "phone": "(720)214-2000",
+            "hours": [
+                "Mon - Fri: 10:00am - 8:00pm",
+                "Sat: 10:00am - 10:00pm",
+                "Sun: Noon - 8:00pm"
+            ]
+        },
+        {
+            "name": "Interior Delights",
+            "photo": "interior.jpg",
+            "address": "10970 S Parker Rd. Ste A12, Parker, CO 80134",
+            "phone": "(866)434-8911",
+            "hours": [
+                "Mon - Sat: 10:00am - 5:00pm",
+                "Sun: Closed"
+            ]
+        },
+        {
+            "name": "Portofinos Pizza and Pasta",
+            "photo": "portofinos.jpg",
+            "address": "10920 S. Parker Rd, Parker, CO 80134",
+            "phone": "(303)841-9900",
+            "hours": [
+                "Mon, Tue, Sun: 11:00am - 9:00pm",
+                "Sun: Closed"
+            ]
+        }
+    ]
+}

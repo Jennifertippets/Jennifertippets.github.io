@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="ParkerCSS/small.css" />
     <link rel="stylesheet" href="ParkerCSS/medium.css" />
     <link rel="stylesheet" href="ParkerCSS/large.css" />
+
+    <script defer src="./ParkerJS/directory.js"></script>
+
   </head>
 
   <body>
@@ -45,7 +48,20 @@
           <source media="(max-width: 800px)" srcset="./images/directory-hero-medium.jpg"/>
           <img class="pink" src="./images/directory-hero-large.jpg" alt="local stores in downtown Parker"/>
         </picture>
+      </div>
+<section class="list-grid">
+  <h2 class="direc">Businesses' Directory</h2>
 
+  <div id="buttons">
+    <button class="buttons-one" onclick="listView()">
+        <i class="list"></i>
+    </button>
+    <button class="buttons-two" onclick="gridView()">
+        <i class="grid"></i>
+    </button>
+</div>
+  <div class="company"></div>
+</section>
     </main>
     <footer>
       &copy; <span id="year"></span> | Parker Chamber of Commerce |
@@ -55,6 +71,6 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="ParkerJS/first.js"></script>
-  
+   <script src="./ParkerJS/grid-list.js"></script>
   </body>
 </html>

@@ -52,11 +52,25 @@ header {
     column-gap: 0.5rem;  
     text-align: center; 
 }
+/***********section*************/
+.companies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+   
+}
+.join {
+    
+    
+   
+    padding: 5.7rem;
+}
 /***************weather box*********************/
 .weather{
     top:1rem;
-    font-size: 18px;
+    font-size:18px;
 }
+
 .contact {
     display:grid;
     grid-template-columns: 1fr 1fr;  

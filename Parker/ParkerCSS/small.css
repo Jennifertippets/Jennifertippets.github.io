@@ -92,7 +92,37 @@ main {
 }
 
 /**************sections*****************/
-.business,
+.busi-comp {
+  border: solid 2px black;
+  background-color: #F2CC8F; 
+  margin: 1rem 0.5rem;
+  text-align: center; 
+  padding-top:2rem;  
+}
+
+.companies {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    
+    padding: 2rem 0.5rem 4rem;
+    
+}
+.companies section {
+    text-align: center;
+}
+
+.busi-one{
+   
+    font-family:'cabin', sans-serif;
+    font-weight:700;
+    font-size: 35px;
+    color:white;
+    
+     
+      
+}
+
 .join,
 .events
 {
@@ -100,7 +130,7 @@ main {
 display: block;
    border: solid 2px black;
    margin: 2rem 0.5rem;
-   padding: 4rem;
+    
    text-align: center;
 }
 
@@ -110,6 +140,7 @@ display: block;
     font-family:'cabin', sans-serif;
     font-weight:700;
     font-size: 35px;
+   padding: 5rem 0rem;
 }
 #join{
   color:white;  
@@ -120,11 +151,13 @@ display: block;
     font-family:'cabin', sans-serif;
     font-weight:700;
     font-size: 35px;
+    padding: 3rem 0rem;
     
     
 }
 #events {
     color:white;
+   
 }
 .contact {
     display:grid;
@@ -252,7 +285,7 @@ display: block;
        font-weight: 700;
        font-size: 1rem;
        background-color:#fefffe;
-       color: white;   
+       color: rgb(15, 15, 15);   
    }
    .degree {
        margin-top:-0.5rem;
@@ -585,4 +618,10 @@ font-family:'Cabin', sans-serif;
 /******************Attribution page***********************************************/
 .attrib {
     text-align: center;
+}
+
+/***************************Directory page****************************/
+.direc{
+    text-align: center;
+    margin: 2rem auto;
 }
