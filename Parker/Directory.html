@@ -17,18 +17,18 @@
 
     <script defer src="./ParkerJS/directory.js"></script>
     <script defer src="./ParkerJS/grid-list.js"></script>
-  </body>
+  
   </head>
 
   <body>
     <header>
       <picture>
-        <img
+        <a href="index.html"><img
           class="logo"
           src="./images/logo3large.png"
-          alt="autumn leaf logo with title"/>
+          alt="autumn leaf logo with title"/></a>
       </picture>
-      <section>
+      <div>
         <nav>
           <button onclick="toggleMenu()">&#9776;</button>
           <ul id="menu" class="hide">
@@ -39,7 +39,7 @@
             <li><a href="./Contact.html">Contact</a></li>
           </ul>
         </nav>
-      </section>
+      </div>
     </header>
     <main>
 
@@ -50,17 +50,17 @@
           <img class="pink" src="./images/directory-hero-large.jpg" alt="local stores in downtown Parker"/>
         </picture>
       </div>
-<section class="list-grid">
-  <h2 class="direc">Businesses' Directory</h2>
+
+  <h2 class="direc">Business Directory</h2>
 
 <div class="buttons-four">
 <button onclick="listView()"><i class="fa fa-bars"></i> List</button>
   <button onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button> 
   </div>  
 
-<section class="listone">
+<div class="listone">
   <div class="company"></div>
-</section>
+</div>
     </main>
     <footer>
       &copy; <span id="year"></span> | Parker Chamber of Commerce |

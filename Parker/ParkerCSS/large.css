@@ -5,6 +5,7 @@
         margin-left: 0.5rem;
         max-width:14%;
         padding-top: -1rem;
+        margin-right: 6rem;
     }
     nav ul li a {
         font-size: 25px;
@@ -74,10 +75,10 @@ font-size: 25px;
 }
 /****************parker page******************/ 
 .according {
-    font-size: 18px;
+    font-size: 20px;
 } 
 .by {
-    font-size: 18px;
+    font-size: 20px;
 }  
 .demo-paragraph {
     font-size: 18px;
@@ -87,7 +88,14 @@ font-size: 25px;
     font-size: 20px;
 }
 .answer {
-    font-size: 18px;
+    font-size: 20px;
+}
+.around-one{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} 
+.around{
+    font-size: 20px;
 }
 /**************************Join page*******************************/
 /********membership levels*************/
@@ -120,7 +128,7 @@ font-size: 25px;
 }
 .commerce-two {
     font-size: 20px;
-}
+}  
 
 .textarea-two {
     display: block;

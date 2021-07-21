@@ -49,6 +49,8 @@ nav button {
      padding: 0.75rem;
      text-decoration:none;
      font-size: 0.95rem;
+     background-color: none;
+    
      }
     
      nav ul.hide {
@@ -406,7 +408,7 @@ font-size: 15px;
 .chair {
     font-size: 18px;
 }
-#commit {
+.commit {
     font-size: 13px;
 }
 .direct {
@@ -477,6 +479,7 @@ footer {
     text-align: center;
     font-size: 30px;
     font-family:'Cabin', sans-serif; 
+    margin-top: 0.5rem;
 }
 .demo-paragraph {
     text-align: center;
@@ -485,6 +488,12 @@ footer {
     font-family:'Bona Nova', serif; 
 }
 /************Events***************/
+.events-one {
+    font-size: 30px;
+    font-family: 'Cabin', sans-serif;
+    margin:2rem auto;
+    text-align: center;
+}
 .around{
     border: solid 2px #E07A5F;
     padding:1rem;
@@ -496,7 +505,7 @@ ul li{
     list-style: none;
     font-family:'Bona Nova', serif;
 }
-#title {
+.title {
     text-align: center;
     margin-bottom: 1rem;
     font-weight: bold;
@@ -549,6 +558,7 @@ margin:1rem;
     text-align: left;
     margin: 0.5rem;
     padding: 0.5rem -1rem;
+    list-style:square;
 }
 .gold, .bronze {
     background-color: #81b29a;
@@ -558,9 +568,7 @@ margin:1rem;
 .silver, .profit {
     background-color: #E07A5F;
 }
-section ul li {
-    list-style:square ;
-}
+
 /********************form******************/
 .application-title {
    text-align: center; 
@@ -632,8 +640,8 @@ font-family:'Cabin', sans-serif;
     padding: 0.5rem;
     color:white;
     margin: 1rem 0.5rem;
-    max-width: 100%;
-    display: block; 
+    
+
 } 
 
 .buttons-four{

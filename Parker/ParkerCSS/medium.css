@@ -5,12 +5,16 @@ nav button{
 }
 nav ul {
     display: flex;
+margin-top:-2rem;
+
 }
 nav li {
     display:inline-block;
+    
 }
 nav ul li {
     flex: 1 1 100%;
+
 } 
 
 nav ul.hide {
@@ -20,15 +24,14 @@ nav ul.hide {
 nav ul li a {
    font-size: 20px;
    margin-left: 1rem;
+
+   
 }
 .logo{
     max-width: 18%;
+    margin-right:3rem;
 }
-section nav{
 
-    float:right;
-    margin-top: -1.5rem;
-}
 header {
     padding-bottom: 2.5rem;
 }
@@ -218,6 +221,10 @@ font-size: 30px;
   .answer {
     
     font-size: 15px;
+}
+.around-one{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
 } 
 /**************************Join page*******************************/
 /********membership levels*************/
@@ -304,5 +311,8 @@ font-size: 30px;
     margin: 0rem 0.5rem;
 
 }
+
+    
+
 
 }
