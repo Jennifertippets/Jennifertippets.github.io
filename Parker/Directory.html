@@ -9,14 +9,15 @@
       content="It is the Directory page by Jennifer Tippets. You will find a list of local business. Class: Web Frontend Development at Brigham Young University - Idaho."/>
     <title>Directory</title>
     <link rel="shortcut icon" href="./images/parker-iconone.png" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="ParkerCSS/normalize.css" />
     <link rel="stylesheet" href="ParkerCSS/small.css" />
     <link rel="stylesheet" href="ParkerCSS/medium.css" />
     <link rel="stylesheet" href="ParkerCSS/large.css" />
 
     <script defer src="./ParkerJS/directory.js"></script>
-
+    <script defer src="./ParkerJS/grid-list.js"></script>
+  </body>
   </head>
 
   <body>
@@ -52,14 +53,12 @@
 <section class="list-grid">
   <h2 class="direc">Businesses' Directory</h2>
 
-  <div id="buttons">
-    <button class="buttons-one" onclick="listView()">
-        <i class="list"></i>
-    </button>
-    <button class="buttons-two" onclick="gridView()">
-        <i class="grid"></i>
-    </button>
-</div>
+<div class="buttons-four">
+<button onclick="listView()"><i class="fa fa-bars"></i> List</button>
+  <button onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button> 
+  </div>  
+
+<section class="listone">
   <div class="company"></div>
 </section>
     </main>
@@ -71,6 +70,5 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="ParkerJS/first.js"></script>
-   <script src="./ParkerJS/grid-list.js"></script>
-  </body>
+  
 </html>

@@ -623,5 +623,22 @@ font-family:'Cabin', sans-serif;
 /***************************Directory page****************************/
 .direc{
     text-align: center;
-    margin: 2rem auto;
+    margin: 2rem 0.5rem;
 }
+.company section {
+    border: solid 2px #fefffe;
+    text-align: center;
+    background-color: #3D405B;
+    padding: 0.5rem;
+    color:white;
+    margin: 1rem 0.5rem;
+    max-width: 100%;
+    display: block; 
+} 
+
+.buttons-four{
+    display:none;
+}
+
+ 
+    

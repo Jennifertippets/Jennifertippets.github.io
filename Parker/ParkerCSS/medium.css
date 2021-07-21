@@ -297,5 +297,12 @@ font-size: 30px;
     margin: 2.5rem; 
 
 }
+/********************directory**********************/
+
+.buttons-four{
+    display:block;
+    margin: 0rem 0.5rem;
+
+}
 
 }
